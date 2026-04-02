@@ -87,7 +87,7 @@
   "package": {
     "name": "galileo_falling_bodies",
     "namespace": "reg",
-    "version": "4.0.2"
+    "version": "4.0.3"
   },
   "package_name": "galileo_falling_bodies",
   "scope": "local",
