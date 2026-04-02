@@ -1,6 +1,6 @@
 [project]
 name = "galileo-falling-bodies-gaia"
-version = "4.0.0"
+version = "4.0.2"
 description = "Galileo's falling bodies argument — Gaia knowledge package"
 authors = [{name = "Galileo Galilei"}]
 requires-python = ">=3.12"
@@ -10,8 +10,9 @@ dependencies = []
 include = ["galileo_falling_bodies*"]
 
 [tool.gaia]
-namespace = "galileo"
+namespace = "reg"
 type = "knowledge-package"
+uuid = "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
 
 [build-system]
 requires = ["setuptools>=69.0"]
