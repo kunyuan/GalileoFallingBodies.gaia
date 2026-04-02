@@ -1,5 +1,5 @@
 {
-  "ir_hash": "f6372acff423af8aa7b197507d7c98457dbfa7e4506f2b384f6cef928facdd9d",
+  "ir_hash": "0de984b052f21009973d45b2877447448dccd5d6d2531876f8746697bb553847",
   "knowledge": [
     {
       "content": "Aristotle's doctrine: heavier objects fall proportionally faster.",
@@ -45,7 +45,7 @@
       "content": "not_both_true(A, B)",
       "content_hash": "468923920550aff97ac2349f7d0a5b32e6560066b45861bf367db7f40e8649a7",
       "id": "galileo:galileo_falling_bodies::tied_ball",
-      "is_input": true,
+      "is_input": false,
       "label": "tied_ball",
       "metadata": {
         "helper_kind": "contradiction_result"
