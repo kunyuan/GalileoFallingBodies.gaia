@@ -2,7 +2,7 @@
 
 from gaia.lang import Package, claim, contradiction, setting
 
-with Package("galileo_falling_bodies", namespace="reg", version="4.0.2") as pkg:
+with Package("galileo_falling_bodies", namespace="reg", version="4.0.3") as pkg:
 
     # ── Background ──
     aristotle_doctrine = setting("""

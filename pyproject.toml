@@ -1,6 +1,6 @@
 [project]
 name = "galileo-falling-bodies-gaia"
-version = "4.0.2"
+version = "4.0.3"
 description = "Galileo's falling bodies argument — Gaia knowledge package"
 authors = [{name = "Galileo Galilei"}]
 requires-python = ">=3.12"
