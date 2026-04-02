@@ -1,50 +1,46 @@
 {
-  "ir_hash": "0de984b052f21009973d45b2877447448dccd5d6d2531876f8746697bb553847",
-  "knowledge": [
+  "ir_hash": "sha256:fcdca79e982371ba73ae844c251ac7e46b413518bd86210625ebafc239c2b602",
+  "knowledges": [
     {
       "content": "Aristotle's doctrine: heavier objects fall proportionally faster.",
       "content_hash": "ded976fbb1a5df7d567d62da592968afb5d1bea076f9dc50b93923e38cb0dc08",
-      "id": "galileo:galileo_falling_bodies::aristotle_doctrine",
+      "id": "reg:galileo_falling_bodies::aristotle_doctrine",
       "is_input": false,
       "label": "aristotle_doctrine",
-      "metadata": {},
       "parameters": [],
       "type": "setting"
     },
     {
       "content": "Observations show heavier stones fall faster than feathers.",
       "content_hash": "00413432cf9f814d71e1d670b55390133c594d945017143119659daae7fd448f",
-      "id": "galileo:galileo_falling_bodies::heavy_falls_faster",
+      "id": "reg:galileo_falling_bodies::heavy_falls_faster",
       "is_input": true,
       "label": "heavy_falls_faster",
-      "metadata": {},
       "parameters": [],
       "type": "claim"
     },
     {
       "content": "The tied composite should be slower (light ball drags heavy ball).\n        $v_{\\text{composite}} = \\frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}$",
       "content_hash": "cffc0c7cf851740f913c022e89b4df0c2cc80ca46d45cd630e1930712776e8e7",
-      "id": "galileo:galileo_falling_bodies::composite_slower",
+      "id": "reg:galileo_falling_bodies::composite_slower",
       "is_input": true,
       "label": "composite_slower",
-      "metadata": {},
       "parameters": [],
       "type": "claim"
     },
     {
       "content": "The composite has greater mass, so it should be faster.\n        $v_{\\text{composite}} = k(m_1 + m_2) > k m_1$",
       "content_hash": "c1b3c8b0c6c796d2cd8e7f824ce95441047a37bccfedc8b8d79285a3c2e9bc5c",
-      "id": "galileo:galileo_falling_bodies::composite_faster",
+      "id": "reg:galileo_falling_bodies::composite_faster",
       "is_input": true,
       "label": "composite_faster",
-      "metadata": {},
       "parameters": [],
       "type": "claim"
     },
     {
       "content": "not_both_true(A, B)",
       "content_hash": "468923920550aff97ac2349f7d0a5b32e6560066b45861bf367db7f40e8649a7",
-      "id": "galileo:galileo_falling_bodies::tied_ball",
+      "id": "reg:galileo_falling_bodies::tied_ball",
       "is_input": false,
       "label": "tied_ball",
       "metadata": {
@@ -56,68 +52,63 @@
     {
       "content": "Observed speed differences are caused entirely by air resistance.",
       "content_hash": "f63d90631cce18d9d452f535fa8d29d3056189cc5493ecbd77abcd85e0d7a52a",
-      "id": "galileo:galileo_falling_bodies::air_resistance",
+      "id": "reg:galileo_falling_bodies::air_resistance",
       "is_input": false,
       "label": "air_resistance",
-      "metadata": {},
       "parameters": [],
       "type": "claim"
     },
     {
       "content": "In a vacuum, objects of different mass fall at the same rate.\n        $g \\approx 9.8 \\text{ m/s}^2$, independent of mass.",
       "content_hash": "81d76372a6721bcadc3da4ae9148bb3b6a95f9a54674e58da7c0e199839063bf",
-      "id": "galileo:galileo_falling_bodies::vacuum_prediction",
+      "id": "reg:galileo_falling_bodies::vacuum_prediction",
       "is_input": false,
       "label": "vacuum_prediction",
-      "metadata": {},
       "parameters": [],
       "type": "claim"
     }
   ],
+  "namespace": "reg",
   "operators": [
     {
-      "conclusion": "galileo:galileo_falling_bodies::tied_ball",
+      "conclusion": "reg:galileo_falling_bodies::tied_ball",
+      "metadata": {
+        "reason": "Same premise yields contradictory conclusions"
+      },
       "operator": "contradiction",
-      "operator_id": "lco_d9708f8c8c9a61fa",
-      "reason": "Same premise yields contradictory conclusions",
+      "operator_id": "lco_26bb25e7ed6225db",
       "scope": "local",
       "variables": [
-        "galileo:galileo_falling_bodies::composite_slower",
-        "galileo:galileo_falling_bodies::composite_faster"
+        "reg:galileo_falling_bodies::composite_slower",
+        "reg:galileo_falling_bodies::composite_faster"
       ]
     }
   ],
   "package": {
     "name": "galileo_falling_bodies",
-    "namespace": "galileo",
-    "version": "4.0.0"
+    "namespace": "reg",
+    "version": "4.0.3"
   },
+  "package_name": "galileo_falling_bodies",
+  "scope": "local",
   "strategies": [
     {
-      "background": [],
-      "conclusion": "galileo:galileo_falling_bodies::air_resistance",
-      "formal_expr": null,
+      "conclusion": "reg:galileo_falling_bodies::air_resistance",
       "premises": [
-        "galileo:galileo_falling_bodies::tied_ball"
+        "reg:galileo_falling_bodies::tied_ball"
       ],
-      "reason": null,
       "scope": "local",
-      "steps": null,
-      "strategy_id": "lcs_bd6f2d8229ddcf3d",
+      "strategy_id": "lcs_98e1bb7c4923d2ad",
       "type": "noisy_and"
     },
     {
-      "background": [],
-      "conclusion": "galileo:galileo_falling_bodies::vacuum_prediction",
-      "formal_expr": null,
+      "conclusion": "reg:galileo_falling_bodies::vacuum_prediction",
       "premises": [
-        "galileo:galileo_falling_bodies::tied_ball",
-        "galileo:galileo_falling_bodies::heavy_falls_faster"
+        "reg:galileo_falling_bodies::tied_ball",
+        "reg:galileo_falling_bodies::heavy_falls_faster"
       ],
-      "reason": null,
       "scope": "local",
-      "steps": null,
-      "strategy_id": "lcs_b50924e7d10c9a11",
+      "strategy_id": "lcs_627e73bdaab6332d",
       "type": "noisy_and"
     }
   ]
