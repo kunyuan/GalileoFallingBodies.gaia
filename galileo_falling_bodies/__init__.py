@@ -42,6 +42,7 @@ air_resistance = claim(
 """,
     given=[tied_ball],
 )
+air_resistance_support = air_resistance.strategy
 
 vacuum_prediction = claim(
     r"""
@@ -50,5 +51,14 @@ vacuum_prediction = claim(
 """,
     given=[tied_ball, heavy_falls_faster],
 )
+vacuum_prediction_support = vacuum_prediction.strategy
 
-__all__ = ["vacuum_prediction", "air_resistance"]
+__all__ = [
+    "aristotle_doctrine",
+    "heavy_falls_faster",
+    "composite_slower",
+    "composite_faster",
+    "tied_ball",
+    "air_resistance",
+    "vacuum_prediction",
+]
