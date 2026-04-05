@@ -1,134 +1,347 @@
 {
-  "ir_hash": "sha256:a5f6b830318ae68ac824cd6466a69ff1b9bdb7996cf61fde80099d8800d003b2",
+  "ir_hash": "sha256:b12641c7684973c72356ea168ef9ad45e3d20f5066bcbbaa63a0b72d545ea4c3",
   "objects": [
     {
-      "judgment": "confounded_observation",
-      "justification": "The observation is real in ordinary air, but it is confounded by drag and therefore does not directly support an Aristotelian mass law.",
+      "judgment": null,
+      "justification": "Common everyday experience, highly reliable.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::heavy_falls_faster",
-      "label": "heavy_falls_faster",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
+      "label": "obs_daily",
       "metadata": null,
-      "prior": 0.72
+      "prior": 0.9
     },
     {
-      "judgment": "strong_counterfactual_step",
-      "justification": "Given the Aristotelian premise, attaching a lighter body predicts a drag-like effect that should slow the heavier body.",
+      "judgment": null,
+      "justification": "Well-documented experimental observation.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::composite_slower",
-      "label": "composite_slower",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_media",
+      "label": "obs_media",
       "metadata": null,
-      "prior": 0.83
+      "prior": 0.9
     },
     {
-      "judgment": "strong_counterfactual_step",
-      "justification": "Under the same doctrine, the tied composite has greater total mass and should therefore fall faster.",
+      "judgment": null,
+      "justification": "Careful experiment in controlled conditions.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::composite_faster",
-      "label": "composite_faster",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_air",
+      "label": "obs_air",
       "metadata": null,
-      "prior": 0.91
+      "prior": 0.9
     },
     {
-      "judgment": "well_supported_explanation",
-      "justification": "The contradiction in the Aristotelian model strongly supports the interpretation that ordinary observed speed differences arise from drag.",
+      "judgment": null,
+      "justification": "Controlled inclined plane experiment.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::air_resistance",
-      "label": "air_resistance",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
+      "label": "obs_theta1",
       "metadata": null,
-      "prior": 0.84
+      "prior": 0.9
     },
     {
-      "judgment": "strong_conclusion",
-      "justification": "Once drag is removed as the confounder, the remaining explanation predicts equal free-fall acceleration across masses.",
+      "judgment": null,
+      "justification": "Repeated experiment at different angle.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::vacuum_prediction",
-      "label": "vacuum_prediction",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
+      "label": "obs_theta2",
       "metadata": null,
-      "prior": 0.88
+      "prior": 0.9
+    },
+    {
+      "judgment": null,
+      "justification": "Central hypothesis under test; MaxEnt prior.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
+      "label": "hyp_aristotle",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Derived from Aristotle; deduction determines belief.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
+      "label": "hyp_drag",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Derived from Aristotle; deduction determines belief.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
+      "label": "hyp_mass",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Derived; deduction from Aristotle + vacuum.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "label": "hyp_aristotle_vac",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Central competing hypothesis; MaxEnt prior.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "label": "hyp_air_resistance",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Key conclusion under test.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "label": "hyp_vacuum_equal",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Derived from observation + setting.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane1",
+      "label": "hyp_plane1",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Derived from observation + setting.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane2",
+      "label": "hyp_plane2",
+      "metadata": null,
+      "prior": 0.5
     },
     {
       "conditional_probabilities": [
-        0.92
+        0.9
       ],
-      "judgment": "highly_reliable_support",
-      "justification": "If the tied-ball contradiction is accepted, it very strongly supports the drag explanation for ordinary observations.",
+      "judgment": null,
+      "justification": "Direct application of Aristotle's law to vacuum.",
       "kind": "strategy",
-      "label": "air_resistance_support",
+      "label": null,
       "metadata": null,
-      "strategy_id": "lcs_98e1bb7c4923d2ad",
+      "strategy_id": "lcs_76dcc92f89b28671",
       "type": "noisy_and"
     },
     {
       "conditional_probabilities": [
-        0.89
+        0.85
       ],
-      "judgment": "strong_support",
-      "justification": "The contradiction plus the empirical observation of apparent mass differences jointly provide strong support for the vacuum prediction.",
+      "judgment": null,
+      "justification": "Inclined plane supports equal speed with some uncertainty.",
       "kind": "strategy",
-      "label": "vacuum_prediction_support",
+      "label": null,
       "metadata": null,
-      "strategy_id": "lcs_627e73bdaab6332d",
+      "strategy_id": "lcs_302f74c32c6b6f49",
       "type": "noisy_and"
+    },
+    {
+      "conditional_probabilities": [
+        0.85
+      ],
+      "judgment": null,
+      "justification": "Second angle confirms with similar reliability.",
+      "kind": "strategy",
+      "label": null,
+      "metadata": null,
+      "strategy_id": "lcs_1c0cce98f5b30901",
+      "type": "noisy_and"
+    },
+    {
+      "conditional_probabilities": [
+        0.9
+      ],
+      "judgment": null,
+      "justification": "Air resistance removal logically implies equal speed.",
+      "kind": "strategy",
+      "label": null,
+      "metadata": null,
+      "strategy_id": "lcs_421f8abcb89c6967",
+      "type": "noisy_and"
+    },
+    {
+      "judgment": null,
+      "justification": "Daily observation could be explained by air resistance alone, not by Aristotle's law. Moderate alternative plausibility.",
+      "kind": "generated_claim",
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
+      "metadata": null,
+      "occurrence": 0,
+      "prior": 0.4,
+      "role": "alternative_explanation",
+      "strategy_id": "lcs_c1c1dfd56bed3df7",
+      "strategy_label": null
+    },
+    {
+      "judgment": null,
+      "justification": "Media observation is hard to explain without air resistance.",
+      "kind": "generated_claim",
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
+      "metadata": null,
+      "occurrence": 0,
+      "prior": 0.2,
+      "role": "alternative_explanation",
+      "strategy_id": "lcs_02e50c572622fd83",
+      "strategy_label": null
+    },
+    {
+      "judgment": null,
+      "justification": "Controlled air experiment is hard to explain without air resistance.",
+      "kind": "generated_claim",
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
+      "metadata": null,
+      "occurrence": 0,
+      "prior": 0.2,
+      "role": "alternative_explanation",
+      "strategy_id": "lcs_af584cbae015425a",
+      "strategy_label": null
     }
   ],
   "priors": [
     {
-      "created_at": "2026-04-05T08:49:44.559105Z",
-      "knowledge_id": "reg:galileo_falling_bodies::heavy_falls_faster",
-      "source_id": "galileo_self_review",
-      "value": 0.72
+      "created_at": "2026-04-05T08:56:20.550853Z",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
+      "source_id": "self_review",
+      "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:49:44.559112Z",
-      "knowledge_id": "reg:galileo_falling_bodies::composite_slower",
-      "source_id": "galileo_self_review",
-      "value": 0.83
+      "created_at": "2026-04-05T08:56:20.550870Z",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_media",
+      "source_id": "self_review",
+      "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:49:44.559115Z",
-      "knowledge_id": "reg:galileo_falling_bodies::composite_faster",
-      "source_id": "galileo_self_review",
-      "value": 0.91
+      "created_at": "2026-04-05T08:56:20.550877Z",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_air",
+      "source_id": "self_review",
+      "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:49:44.559117Z",
-      "knowledge_id": "reg:galileo_falling_bodies::air_resistance",
-      "source_id": "galileo_self_review",
-      "value": 0.84
+      "created_at": "2026-04-05T08:56:20.550882Z",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
+      "source_id": "self_review",
+      "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:49:44.559119Z",
-      "knowledge_id": "reg:galileo_falling_bodies::vacuum_prediction",
-      "source_id": "galileo_self_review",
-      "value": 0.88
+      "created_at": "2026-04-05T08:56:20.550887Z",
+      "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
+      "source_id": "self_review",
+      "value": 0.9
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550892Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550897Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550908Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550912Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550924Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550929Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550933Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane1",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550937Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane2",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550982Z",
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
+      "source_id": "self_review",
+      "value": 0.4
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550990Z",
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
+      "source_id": "self_review",
+      "value": 0.2
+    },
+    {
+      "created_at": "2026-04-05T08:56:20.550995Z",
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
+      "source_id": "self_review",
+      "value": 0.2
     }
   ],
   "resolution_policy": {
-    "source_id": "galileo_self_review",
+    "source_id": "self_review",
     "strategy": "source"
   },
   "source": {
-    "created_at": "2026-04-05T08:49:44.558789Z",
+    "created_at": "2026-04-05T08:56:20.547340Z",
     "model": "agent-authored",
-    "policy": "manual-self-review-v1",
-    "source_id": "galileo_self_review"
+    "source_id": "self_review"
   },
   "strategy_params": [
     {
       "conditional_probabilities": [
-        0.92
+        0.9
       ],
-      "created_at": "2026-04-05T08:49:44.559132Z",
-      "source_id": "galileo_self_review",
-      "strategy_id": "lcs_98e1bb7c4923d2ad"
+      "created_at": "2026-04-05T08:56:20.550952Z",
+      "source_id": "self_review",
+      "strategy_id": "lcs_76dcc92f89b28671"
     },
     {
       "conditional_probabilities": [
-        0.89
+        0.85
       ],
-      "created_at": "2026-04-05T08:49:44.559137Z",
-      "source_id": "galileo_self_review",
-      "strategy_id": "lcs_627e73bdaab6332d"
+      "created_at": "2026-04-05T08:56:20.550961Z",
+      "source_id": "self_review",
+      "strategy_id": "lcs_302f74c32c6b6f49"
+    },
+    {
+      "conditional_probabilities": [
+        0.85
+      ],
+      "created_at": "2026-04-05T08:56:20.550968Z",
+      "source_id": "self_review",
+      "strategy_id": "lcs_1c0cce98f5b30901"
+    },
+    {
+      "conditional_probabilities": [
+        0.9
+      ],
+      "created_at": "2026-04-05T08:56:20.550973Z",
+      "source_id": "self_review",
+      "strategy_id": "lcs_421f8abcb89c6967"
     }
   ]
 }

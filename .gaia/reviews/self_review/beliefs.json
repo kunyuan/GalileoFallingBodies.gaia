@@ -1,58 +1,279 @@
 {
   "beliefs": [
     {
-      "belief": 0.9835833564398927,
-      "knowledge_id": "reg:galileo_falling_bodies::air_resistance",
-      "label": "air_resistance"
+      "belief": 0.2,
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
+      "label": "__alternative_explanation_37705dcd"
     },
     {
-      "belief": 0.63338180313046,
-      "knowledge_id": "reg:galileo_falling_bodies::composite_faster",
-      "label": "composite_faster"
+      "belief": 0.4,
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
+      "label": "__alternative_explanation_c8de506e"
     },
     {
-      "belief": 0.3074989614686465,
-      "knowledge_id": "reg:galileo_falling_bodies::composite_slower",
-      "label": "composite_slower"
+      "belief": 0.19999999999999998,
+      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
+      "label": "__alternative_explanation_fd4bc5a5"
     },
     {
-      "belief": 0.9439482623988089,
-      "knowledge_id": "reg:galileo_falling_bodies::heavy_falls_faster",
-      "label": "heavy_falls_faster"
+      "belief": 0.5569839820342085,
+      "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98",
+      "label": "__disjunction_result_8c8e3c98"
     },
     {
-      "belief": 0.9998739221328322,
-      "knowledge_id": "reg:galileo_falling_bodies::tied_ball",
-      "label": "tied_ball"
+      "belief": 0.5569839820342087,
+      "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_a8dae375",
+      "label": "__disjunction_result_a8dae375"
     },
     {
-      "belief": 0.9288421458354952,
-      "knowledge_id": "reg:galileo_falling_bodies::vacuum_prediction",
-      "label": "vacuum_prediction"
+      "belief": 0.40065807199851783,
+      "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_b3584e0a",
+      "label": "__disjunction_result_b3584e0a"
+    },
+    {
+      "belief": 0.5900610858423795,
+      "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_08feb30c",
+      "label": "__equivalence_result_08feb30c"
+    },
+    {
+      "belief": 0.5900610858423795,
+      "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_944c2cd1",
+      "label": "__equivalence_result_944c2cd1"
+    },
+    {
+      "belief": 0.4207613431818109,
+      "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_b04d32f7",
+      "label": "__equivalence_result_b04d32f7"
+    },
+    {
+      "belief": 0.9990006783961052,
+      "knowledge_id": "reg:galileo_falling_bodies::_anon_000",
+      "label": null
+    },
+    {
+      "belief": 0.9993957220721865,
+      "knowledge_id": "reg:galileo_falling_bodies::_anon_001",
+      "label": null
+    },
+    {
+      "belief": 0.9993957220721865,
+      "knowledge_id": "reg:galileo_falling_bodies::_anon_002",
+      "label": null
+    },
+    {
+      "belief": 0.9997630847239642,
+      "knowledge_id": "reg:galileo_falling_bodies::_anon_003",
+      "label": null
+    },
+    {
+      "belief": 0.9997630847239642,
+      "knowledge_id": "reg:galileo_falling_bodies::_anon_004",
+      "label": null
+    },
+    {
+      "belief": 0.9999981605807408,
+      "knowledge_id": "reg:galileo_falling_bodies::final_contradiction",
+      "label": "final_contradiction"
+    },
+    {
+      "belief": 0.4462301202882068,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "label": "hyp_air_resistance"
+    },
+    {
+      "belief": 0.0007649832974578927,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
+      "label": "hyp_aristotle"
+    },
+    {
+      "belief": 0.0012431699685932906,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "label": "hyp_aristotle_vac"
+    },
+    {
+      "belief": 0.3340961848272551,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
+      "label": "hyp_drag"
+    },
+    {
+      "belief": 0.3340961848272551,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
+      "label": "hyp_mass"
+    },
+    {
+      "belief": 0.7647172796452008,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane1",
+      "label": "hyp_plane1"
+    },
+    {
+      "belief": 0.7647172796452008,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane2",
+      "label": "hyp_plane2"
+    },
+    {
+      "belief": 0.40207635576926437,
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "label": "hyp_vacuum_equal"
+    },
+    {
+      "belief": 0.9444741698245649,
+      "knowledge_id": "reg:galileo_falling_bodies::obs_air",
+      "label": "obs_air"
+    },
+    {
+      "belief": 0.9000762431658852,
+      "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
+      "label": "obs_daily"
+    },
+    {
+      "belief": 0.9444741698245649,
+      "knowledge_id": "reg:galileo_falling_bodies::obs_media",
+      "label": "obs_media"
+    },
+    {
+      "belief": 0.8999369336836983,
+      "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
+      "label": "obs_theta1"
+    },
+    {
+      "belief": 0.8999369336836983,
+      "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
+      "label": "obs_theta2"
+    },
+    {
+      "belief": 0.9436873582049876,
+      "knowledge_id": "reg:galileo_falling_bodies::pred_air",
+      "label": "pred_air"
+    },
+    {
+      "belief": 0.8984792344918563,
+      "knowledge_id": "reg:galileo_falling_bodies::pred_daily",
+      "label": "pred_daily"
+    },
+    {
+      "belief": 0.9436873582049876,
+      "knowledge_id": "reg:galileo_falling_bodies::pred_media",
+      "label": "pred_media"
+    },
+    {
+      "belief": 0.8998653572545942,
+      "knowledge_id": "reg:galileo_falling_bodies::pred_theta1",
+      "label": "pred_theta1"
+    },
+    {
+      "belief": 0.8998653572545942,
+      "knowledge_id": "reg:galileo_falling_bodies::pred_theta2",
+      "label": "pred_theta2"
+    },
+    {
+      "belief": 0.9994746120992639,
+      "knowledge_id": "reg:galileo_falling_bodies::tied_ball_contradiction",
+      "label": "tied_ball_contradiction"
     }
   ],
   "diagnostics": {
     "belief_history": {
-      "_m_na_lcs_627e73bdaab6332d": [
-        0.9440824396854184
+      "reg:galileo_falling_bodies::__alternative_explanation_37705dcd": [
+        0.2
       ],
-      "reg:galileo_falling_bodies::air_resistance": [
-        0.9835833564398927
+      "reg:galileo_falling_bodies::__alternative_explanation_c8de506e": [
+        0.4
       ],
-      "reg:galileo_falling_bodies::composite_faster": [
-        0.63338180313046
+      "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5": [
+        0.19999999999999998
       ],
-      "reg:galileo_falling_bodies::composite_slower": [
-        0.3074989614686465
+      "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98": [
+        0.5569839820342085
       ],
-      "reg:galileo_falling_bodies::heavy_falls_faster": [
-        0.9439482623988089
+      "reg:galileo_falling_bodies::__disjunction_result_a8dae375": [
+        0.5569839820342087
       ],
-      "reg:galileo_falling_bodies::tied_ball": [
-        0.9998739221328322
+      "reg:galileo_falling_bodies::__disjunction_result_b3584e0a": [
+        0.40065807199851783
       ],
-      "reg:galileo_falling_bodies::vacuum_prediction": [
-        0.9288421458354952
+      "reg:galileo_falling_bodies::__equivalence_result_08feb30c": [
+        0.5900610858423795
+      ],
+      "reg:galileo_falling_bodies::__equivalence_result_944c2cd1": [
+        0.5900610858423795
+      ],
+      "reg:galileo_falling_bodies::__equivalence_result_b04d32f7": [
+        0.4207613431818109
+      ],
+      "reg:galileo_falling_bodies::_anon_000": [
+        0.9990006783961052
+      ],
+      "reg:galileo_falling_bodies::_anon_001": [
+        0.9993957220721865
+      ],
+      "reg:galileo_falling_bodies::_anon_002": [
+        0.9993957220721865
+      ],
+      "reg:galileo_falling_bodies::_anon_003": [
+        0.9997630847239642
+      ],
+      "reg:galileo_falling_bodies::_anon_004": [
+        0.9997630847239642
+      ],
+      "reg:galileo_falling_bodies::final_contradiction": [
+        0.9999981605807408
+      ],
+      "reg:galileo_falling_bodies::hyp_air_resistance": [
+        0.4462301202882068
+      ],
+      "reg:galileo_falling_bodies::hyp_aristotle": [
+        0.0007649832974578927
+      ],
+      "reg:galileo_falling_bodies::hyp_aristotle_vac": [
+        0.0012431699685932906
+      ],
+      "reg:galileo_falling_bodies::hyp_drag": [
+        0.3340961848272551
+      ],
+      "reg:galileo_falling_bodies::hyp_mass": [
+        0.3340961848272551
+      ],
+      "reg:galileo_falling_bodies::hyp_plane1": [
+        0.7647172796452008
+      ],
+      "reg:galileo_falling_bodies::hyp_plane2": [
+        0.7647172796452008
+      ],
+      "reg:galileo_falling_bodies::hyp_vacuum_equal": [
+        0.40207635576926437
+      ],
+      "reg:galileo_falling_bodies::obs_air": [
+        0.9444741698245649
+      ],
+      "reg:galileo_falling_bodies::obs_daily": [
+        0.9000762431658852
+      ],
+      "reg:galileo_falling_bodies::obs_media": [
+        0.9444741698245649
+      ],
+      "reg:galileo_falling_bodies::obs_theta1": [
+        0.8999369336836983
+      ],
+      "reg:galileo_falling_bodies::obs_theta2": [
+        0.8999369336836983
+      ],
+      "reg:galileo_falling_bodies::pred_air": [
+        0.9436873582049876
+      ],
+      "reg:galileo_falling_bodies::pred_daily": [
+        0.8984792344918563
+      ],
+      "reg:galileo_falling_bodies::pred_media": [
+        0.9436873582049876
+      ],
+      "reg:galileo_falling_bodies::pred_theta1": [
+        0.8998653572545942
+      ],
+      "reg:galileo_falling_bodies::pred_theta2": [
+        0.8998653572545942
+      ],
+      "reg:galileo_falling_bodies::tied_ball_contradiction": [
+        0.9994746120992639
       ]
     },
     "converged": true,
@@ -61,5 +282,5 @@
     "max_change_at_stop": 0.0,
     "treewidth": 2
   },
-  "ir_hash": "sha256:a5f6b830318ae68ac824cd6466a69ff1b9bdb7996cf61fde80099d8800d003b2"
+  "ir_hash": "sha256:b12641c7684973c72356ea168ef9ad45e3d20f5066bcbbaa63a0b72d545ea4c3"
 }
