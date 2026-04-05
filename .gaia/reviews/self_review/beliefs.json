@@ -1,0 +1,65 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.9835833564398927,
+      "knowledge_id": "reg:galileo_falling_bodies::air_resistance",
+      "label": "air_resistance"
+    },
+    {
+      "belief": 0.63338180313046,
+      "knowledge_id": "reg:galileo_falling_bodies::composite_faster",
+      "label": "composite_faster"
+    },
+    {
+      "belief": 0.3074989614686465,
+      "knowledge_id": "reg:galileo_falling_bodies::composite_slower",
+      "label": "composite_slower"
+    },
+    {
+      "belief": 0.9439482623988089,
+      "knowledge_id": "reg:galileo_falling_bodies::heavy_falls_faster",
+      "label": "heavy_falls_faster"
+    },
+    {
+      "belief": 0.9998739221328322,
+      "knowledge_id": "reg:galileo_falling_bodies::tied_ball",
+      "label": "tied_ball"
+    },
+    {
+      "belief": 0.9288421458354952,
+      "knowledge_id": "reg:galileo_falling_bodies::vacuum_prediction",
+      "label": "vacuum_prediction"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "_m_na_lcs_627e73bdaab6332d": [
+        0.9440824396854184
+      ],
+      "reg:galileo_falling_bodies::air_resistance": [
+        0.9835833564398927
+      ],
+      "reg:galileo_falling_bodies::composite_faster": [
+        0.63338180313046
+      ],
+      "reg:galileo_falling_bodies::composite_slower": [
+        0.3074989614686465
+      ],
+      "reg:galileo_falling_bodies::heavy_falls_faster": [
+        0.9439482623988089
+      ],
+      "reg:galileo_falling_bodies::tied_ball": [
+        0.9998739221328322
+      ],
+      "reg:galileo_falling_bodies::vacuum_prediction": [
+        0.9288421458354952
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "ir_hash": "sha256:a5f6b830318ae68ac824cd6466a69ff1b9bdb7996cf61fde80099d8800d003b2"
+}

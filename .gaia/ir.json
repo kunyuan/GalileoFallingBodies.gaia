@@ -4,6 +4,8 @@
     {
       "content": "Aristotle's doctrine: heavier objects fall proportionally faster.",
       "content_hash": "ded976fbb1a5df7d567d62da592968afb5d1bea076f9dc50b93923e38cb0dc08",
+      "declaration_index": 0,
+      "exported": true,
       "id": "reg:galileo_falling_bodies::aristotle_doctrine",
       "label": "aristotle_doctrine",
       "parameters": [],
@@ -12,6 +14,8 @@
     {
       "content": "Observations show heavier stones fall faster than feathers.",
       "content_hash": "00413432cf9f814d71e1d670b55390133c594d945017143119659daae7fd448f",
+      "declaration_index": 1,
+      "exported": true,
       "id": "reg:galileo_falling_bodies::heavy_falls_faster",
       "label": "heavy_falls_faster",
       "parameters": [],
@@ -20,6 +24,8 @@
     {
       "content": "The tied composite should be slower (light ball drags heavy ball).\n    $v_{\\text{composite}} = \\frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}$",
       "content_hash": "1ddf66cecd2a03cfedc81a2c260f8424647ccfd2d52a29ab31dd291844bb3e83",
+      "declaration_index": 2,
+      "exported": true,
       "id": "reg:galileo_falling_bodies::composite_slower",
       "label": "composite_slower",
       "parameters": [],
@@ -28,6 +34,8 @@
     {
       "content": "The composite has greater mass, so it should be faster.\n    $v_{\\text{composite}} = k(m_1 + m_2) > k m_1$",
       "content_hash": "e4416053087d03833fd156310e19bb89ff9ae1d5c4fbeadfeeafa076ee6ccc98",
+      "declaration_index": 3,
+      "exported": true,
       "id": "reg:galileo_falling_bodies::composite_faster",
       "label": "composite_faster",
       "parameters": [],
@@ -36,6 +44,8 @@
     {
       "content": "not_both_true(composite_slower, composite_faster)",
       "content_hash": "ed145c537c6943424644b73e64676ed7c1c0c08b683d96b82a8842c184b27ef9",
+      "declaration_index": 4,
+      "exported": true,
       "id": "reg:galileo_falling_bodies::tied_ball",
       "label": "tied_ball",
       "metadata": {
@@ -47,6 +57,8 @@
     {
       "content": "Observed speed differences are caused entirely by air resistance.",
       "content_hash": "f63d90631cce18d9d452f535fa8d29d3056189cc5493ecbd77abcd85e0d7a52a",
+      "declaration_index": 5,
+      "exported": true,
       "id": "reg:galileo_falling_bodies::air_resistance",
       "label": "air_resistance",
       "parameters": [],
@@ -55,6 +67,8 @@
     {
       "content": "In a vacuum, objects of different mass fall at the same rate.\n    $g \\approx 9.8 \\text{ m/s}^2$, independent of mass.",
       "content_hash": "8db81ea679e5d82f206edd6838e439a09954fa9604ac7d4a979739b2dd42763b",
+      "declaration_index": 6,
+      "exported": true,
       "id": "reg:galileo_falling_bodies::vacuum_prediction",
       "label": "vacuum_prediction",
       "parameters": [],

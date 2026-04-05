@@ -1,0 +1,134 @@
+{
+  "ir_hash": "sha256:a5f6b830318ae68ac824cd6466a69ff1b9bdb7996cf61fde80099d8800d003b2",
+  "objects": [
+    {
+      "judgment": "confounded_observation",
+      "justification": "The observation is real in ordinary air, but it is confounded by drag and therefore does not directly support an Aristotelian mass law.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::heavy_falls_faster",
+      "label": "heavy_falls_faster",
+      "metadata": null,
+      "prior": 0.72
+    },
+    {
+      "judgment": "strong_counterfactual_step",
+      "justification": "Given the Aristotelian premise, attaching a lighter body predicts a drag-like effect that should slow the heavier body.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::composite_slower",
+      "label": "composite_slower",
+      "metadata": null,
+      "prior": 0.83
+    },
+    {
+      "judgment": "strong_counterfactual_step",
+      "justification": "Under the same doctrine, the tied composite has greater total mass and should therefore fall faster.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::composite_faster",
+      "label": "composite_faster",
+      "metadata": null,
+      "prior": 0.91
+    },
+    {
+      "judgment": "well_supported_explanation",
+      "justification": "The contradiction in the Aristotelian model strongly supports the interpretation that ordinary observed speed differences arise from drag.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::air_resistance",
+      "label": "air_resistance",
+      "metadata": null,
+      "prior": 0.84
+    },
+    {
+      "judgment": "strong_conclusion",
+      "justification": "Once drag is removed as the confounder, the remaining explanation predicts equal free-fall acceleration across masses.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::vacuum_prediction",
+      "label": "vacuum_prediction",
+      "metadata": null,
+      "prior": 0.88
+    },
+    {
+      "conditional_probabilities": [
+        0.92
+      ],
+      "judgment": "highly_reliable_support",
+      "justification": "If the tied-ball contradiction is accepted, it very strongly supports the drag explanation for ordinary observations.",
+      "kind": "strategy",
+      "label": "air_resistance_support",
+      "metadata": null,
+      "strategy_id": "lcs_98e1bb7c4923d2ad",
+      "type": "noisy_and"
+    },
+    {
+      "conditional_probabilities": [
+        0.89
+      ],
+      "judgment": "strong_support",
+      "justification": "The contradiction plus the empirical observation of apparent mass differences jointly provide strong support for the vacuum prediction.",
+      "kind": "strategy",
+      "label": "vacuum_prediction_support",
+      "metadata": null,
+      "strategy_id": "lcs_627e73bdaab6332d",
+      "type": "noisy_and"
+    }
+  ],
+  "priors": [
+    {
+      "created_at": "2026-04-05T08:49:44.559105Z",
+      "knowledge_id": "reg:galileo_falling_bodies::heavy_falls_faster",
+      "source_id": "galileo_self_review",
+      "value": 0.72
+    },
+    {
+      "created_at": "2026-04-05T08:49:44.559112Z",
+      "knowledge_id": "reg:galileo_falling_bodies::composite_slower",
+      "source_id": "galileo_self_review",
+      "value": 0.83
+    },
+    {
+      "created_at": "2026-04-05T08:49:44.559115Z",
+      "knowledge_id": "reg:galileo_falling_bodies::composite_faster",
+      "source_id": "galileo_self_review",
+      "value": 0.91
+    },
+    {
+      "created_at": "2026-04-05T08:49:44.559117Z",
+      "knowledge_id": "reg:galileo_falling_bodies::air_resistance",
+      "source_id": "galileo_self_review",
+      "value": 0.84
+    },
+    {
+      "created_at": "2026-04-05T08:49:44.559119Z",
+      "knowledge_id": "reg:galileo_falling_bodies::vacuum_prediction",
+      "source_id": "galileo_self_review",
+      "value": 0.88
+    }
+  ],
+  "resolution_policy": {
+    "source_id": "galileo_self_review",
+    "strategy": "source"
+  },
+  "source": {
+    "created_at": "2026-04-05T08:49:44.558789Z",
+    "model": "agent-authored",
+    "policy": "manual-self-review-v1",
+    "source_id": "galileo_self_review"
+  },
+  "strategy_params": [
+    {
+      "conditional_probabilities": [
+        0.92
+      ],
+      "created_at": "2026-04-05T08:49:44.559132Z",
+      "source_id": "galileo_self_review",
+      "strategy_id": "lcs_98e1bb7c4923d2ad"
+    },
+    {
+      "conditional_probabilities": [
+        0.89
+      ],
+      "created_at": "2026-04-05T08:49:44.559137Z",
+      "source_id": "galileo_self_review",
+      "strategy_id": "lcs_627e73bdaab6332d"
+    }
+  ]
+}
