@@ -1,5 +1,5 @@
 {
-  "ir_hash": "sha256:b12641c7684973c72356ea168ef9ad45e3d20f5066bcbbaa63a0b72d545ea4c3",
+  "ir_hash": "sha256:397c81ece01313ccd2e47d960a03d93ac8c9e5f8d9962bed60e6b5fb9e917352",
   "objects": [
     {
       "judgment": null,
@@ -12,7 +12,7 @@
     },
     {
       "judgment": null,
-      "justification": "Well-documented experimental observation.",
+      "justification": "Well-documented experimental observation across media.",
       "kind": "claim",
       "knowledge_id": "reg:galileo_falling_bodies::obs_media",
       "label": "obs_media",
@@ -21,7 +21,7 @@
     },
     {
       "judgment": null,
-      "justification": "Careful experiment in controlled conditions.",
+      "justification": "Careful experiment with heavy materials, small residual.",
       "kind": "claim",
       "knowledge_id": "reg:galileo_falling_bodies::obs_air",
       "label": "obs_air",
@@ -39,7 +39,7 @@
     },
     {
       "judgment": null,
-      "justification": "Repeated experiment at different angle.",
+      "justification": "Repeated experiment at different angle, 100 repetitions.",
       "kind": "claim",
       "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
       "label": "obs_theta2",
@@ -52,6 +52,24 @@
       "kind": "claim",
       "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
       "label": "hyp_aristotle",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Central competing hypothesis; MaxEnt prior.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "label": "hyp_air_resistance",
+      "metadata": null,
+      "prior": 0.5
+    },
+    {
+      "judgment": null,
+      "justification": "Key conclusion under test; belief from BP.",
+      "kind": "claim",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "label": "hyp_vacuum_equal",
       "metadata": null,
       "prior": 0.5
     },
@@ -84,46 +102,28 @@
     },
     {
       "judgment": null,
-      "justification": "Central competing hypothesis; MaxEnt prior.",
+      "justification": "Derived; deduction from vacuum equal speed.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
-      "label": "hyp_air_resistance",
+      "knowledge_id": "reg:galileo_falling_bodies::pred_theta1",
+      "label": "pred_theta1",
       "metadata": null,
       "prior": 0.5
     },
     {
       "judgment": null,
-      "justification": "Key conclusion under test.",
+      "justification": "Derived; deduction from vacuum equal speed.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
-      "label": "hyp_vacuum_equal",
-      "metadata": null,
-      "prior": 0.5
-    },
-    {
-      "judgment": null,
-      "justification": "Derived from observation + setting.",
-      "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane1",
-      "label": "hyp_plane1",
-      "metadata": null,
-      "prior": 0.5
-    },
-    {
-      "judgment": null,
-      "justification": "Derived from observation + setting.",
-      "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane2",
-      "label": "hyp_plane2",
+      "knowledge_id": "reg:galileo_falling_bodies::pred_theta2",
+      "label": "pred_theta2",
       "metadata": null,
       "prior": 0.5
     },
     {
       "conditional_probabilities": [
-        0.9
+        0.95
       ],
       "judgment": null,
-      "justification": "Direct application of Aristotle's law to vacuum.",
+      "justification": "Near-deterministic: universal law applied to vacuum.",
       "kind": "strategy",
       "label": null,
       "metadata": null,
@@ -132,34 +132,10 @@
     },
     {
       "conditional_probabilities": [
-        0.85
+        0.95
       ],
       "judgment": null,
-      "justification": "Inclined plane supports equal speed with some uncertainty.",
-      "kind": "strategy",
-      "label": null,
-      "metadata": null,
-      "strategy_id": "lcs_302f74c32c6b6f49",
-      "type": "noisy_and"
-    },
-    {
-      "conditional_probabilities": [
-        0.85
-      ],
-      "judgment": null,
-      "justification": "Second angle confirms with similar reliability.",
-      "kind": "strategy",
-      "label": null,
-      "metadata": null,
-      "strategy_id": "lcs_1c0cce98f5b30901",
-      "type": "noisy_and"
-    },
-    {
-      "conditional_probabilities": [
-        0.9
-      ],
-      "judgment": null,
-      "justification": "Air resistance removal logically implies equal speed.",
+      "justification": "Near-deterministic: sole cause removed → effect vanishes.",
       "kind": "strategy",
       "label": null,
       "metadata": null,
@@ -180,7 +156,7 @@
     },
     {
       "judgment": null,
-      "justification": "Media observation is hard to explain without air resistance.",
+      "justification": "Media density pattern is hard to explain without air resistance as the causal mechanism.",
       "kind": "generated_claim",
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
       "metadata": null,
@@ -192,7 +168,7 @@
     },
     {
       "judgment": null,
-      "justification": "Controlled air experiment is hard to explain without air resistance.",
+      "justification": "Near-equal fall times for heavy materials in air is hard to explain without air resistance hypothesis.",
       "kind": "generated_claim",
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
       "metadata": null,
@@ -205,97 +181,97 @@
   ],
   "priors": [
     {
-      "created_at": "2026-04-05T08:56:20.550853Z",
+      "created_at": "2026-04-06T07:59:46.982094Z",
       "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:56:20.550870Z",
+      "created_at": "2026-04-06T07:59:46.982109Z",
       "knowledge_id": "reg:galileo_falling_bodies::obs_media",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:56:20.550877Z",
+      "created_at": "2026-04-06T07:59:46.982116Z",
       "knowledge_id": "reg:galileo_falling_bodies::obs_air",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:56:20.550882Z",
+      "created_at": "2026-04-06T07:59:46.982121Z",
       "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:56:20.550887Z",
+      "created_at": "2026-04-06T07:59:46.982125Z",
       "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-05T08:56:20.550892Z",
+      "created_at": "2026-04-06T07:59:46.982130Z",
       "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-05T08:56:20.550897Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
-      "source_id": "self_review",
-      "value": 0.5
-    },
-    {
-      "created_at": "2026-04-05T08:56:20.550908Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
-      "source_id": "self_review",
-      "value": 0.5
-    },
-    {
-      "created_at": "2026-04-05T08:56:20.550912Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
-      "source_id": "self_review",
-      "value": 0.5
-    },
-    {
-      "created_at": "2026-04-05T08:56:20.550924Z",
+      "created_at": "2026-04-06T07:59:46.982142Z",
       "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-05T08:56:20.550929Z",
+      "created_at": "2026-04-06T07:59:46.982146Z",
       "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-05T08:56:20.550933Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane1",
+      "created_at": "2026-04-06T07:59:46.982150Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-05T08:56:20.550937Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane2",
+      "created_at": "2026-04-06T07:59:46.982155Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-05T08:56:20.550982Z",
+      "created_at": "2026-04-06T07:59:46.982159Z",
+      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-06T07:59:46.982162Z",
+      "knowledge_id": "reg:galileo_falling_bodies::pred_theta1",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-06T07:59:46.982174Z",
+      "knowledge_id": "reg:galileo_falling_bodies::pred_theta2",
+      "source_id": "self_review",
+      "value": 0.5
+    },
+    {
+      "created_at": "2026-04-06T07:59:46.982217Z",
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
       "source_id": "self_review",
       "value": 0.4
     },
     {
-      "created_at": "2026-04-05T08:56:20.550990Z",
+      "created_at": "2026-04-06T07:59:46.982226Z",
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
       "source_id": "self_review",
       "value": 0.2
     },
     {
-      "created_at": "2026-04-05T08:56:20.550995Z",
+      "created_at": "2026-04-06T07:59:46.982232Z",
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
       "source_id": "self_review",
       "value": 0.2
@@ -306,40 +282,24 @@
     "strategy": "source"
   },
   "source": {
-    "created_at": "2026-04-05T08:56:20.547340Z",
+    "created_at": "2026-04-06T07:59:46.981719Z",
     "model": "agent-authored",
     "source_id": "self_review"
   },
   "strategy_params": [
     {
       "conditional_probabilities": [
-        0.9
+        0.95
       ],
-      "created_at": "2026-04-05T08:56:20.550952Z",
+      "created_at": "2026-04-06T07:59:46.982189Z",
       "source_id": "self_review",
       "strategy_id": "lcs_76dcc92f89b28671"
     },
     {
       "conditional_probabilities": [
-        0.85
+        0.95
       ],
-      "created_at": "2026-04-05T08:56:20.550961Z",
-      "source_id": "self_review",
-      "strategy_id": "lcs_302f74c32c6b6f49"
-    },
-    {
-      "conditional_probabilities": [
-        0.85
-      ],
-      "created_at": "2026-04-05T08:56:20.550968Z",
-      "source_id": "self_review",
-      "strategy_id": "lcs_1c0cce98f5b30901"
-    },
-    {
-      "conditional_probabilities": [
-        0.9
-      ],
-      "created_at": "2026-04-05T08:56:20.550973Z",
+      "created_at": "2026-04-06T07:59:46.982199Z",
       "source_id": "self_review",
       "strategy_id": "lcs_421f8abcb89c6967"
     }

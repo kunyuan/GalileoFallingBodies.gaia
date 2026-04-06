@@ -1,172 +1,132 @@
 {
   "beliefs": [
     {
-      "belief": 0.2,
+      "belief": 0.23748509343776472,
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
       "label": "__alternative_explanation_37705dcd"
     },
     {
-      "belief": 0.4,
+      "belief": 0.9980296028647213,
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
       "label": "__alternative_explanation_c8de506e"
     },
     {
-      "belief": 0.19999999999999998,
+      "belief": 0.23748509343776472,
       "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
       "label": "__alternative_explanation_fd4bc5a5"
     },
     {
-      "belief": 0.5569839820342085,
+      "belief": 0.9999789659610558,
       "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98",
       "label": "__disjunction_result_8c8e3c98"
     },
     {
-      "belief": 0.5569839820342087,
+      "belief": 0.9999789659610558,
       "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_a8dae375",
       "label": "__disjunction_result_a8dae375"
     },
     {
-      "belief": 0.40065807199851783,
+      "belief": 0.9998304540046151,
       "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_b3584e0a",
       "label": "__disjunction_result_b3584e0a"
     },
     {
-      "belief": 0.5900610858423795,
+      "belief": 0.9998886035821386,
       "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_08feb30c",
       "label": "__equivalence_result_08feb30c"
     },
     {
-      "belief": 0.5900610858423795,
+      "belief": 0.9998886035821386,
       "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_944c2cd1",
       "label": "__equivalence_result_944c2cd1"
     },
     {
-      "belief": 0.4207613431818109,
+      "belief": 0.9998863191845994,
       "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_b04d32f7",
       "label": "__equivalence_result_b04d32f7"
     },
     {
-      "belief": 0.9990006783961052,
+      "belief": 0.9997933352788443,
       "knowledge_id": "reg:galileo_falling_bodies::_anon_000",
       "label": null
     },
     {
-      "belief": 0.9993957220721865,
+      "belief": 0.9997933352788443,
       "knowledge_id": "reg:galileo_falling_bodies::_anon_001",
       "label": null
     },
     {
-      "belief": 0.9993957220721865,
-      "knowledge_id": "reg:galileo_falling_bodies::_anon_002",
-      "label": null
-    },
-    {
-      "belief": 0.9997630847239642,
-      "knowledge_id": "reg:galileo_falling_bodies::_anon_003",
-      "label": null
-    },
-    {
-      "belief": 0.9997630847239642,
-      "knowledge_id": "reg:galileo_falling_bodies::_anon_004",
-      "label": null
-    },
-    {
-      "belief": 0.9999981605807408,
+      "belief": 0.9999952668094918,
       "knowledge_id": "reg:galileo_falling_bodies::final_contradiction",
       "label": "final_contradiction"
     },
     {
-      "belief": 0.4462301202882068,
+      "belief": 0.9531171060169762,
       "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
       "label": "hyp_air_resistance"
     },
     {
-      "belief": 0.0007649832974578927,
+      "belief": 0.0005045408590857539,
       "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
       "label": "hyp_aristotle"
     },
     {
-      "belief": 0.0012431699685932906,
+      "belief": 0.00044484035720619914,
       "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
       "label": "hyp_aristotle_vac"
     },
     {
-      "belief": 0.3340961848272551,
+      "belief": 0.33398783183752206,
       "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
       "label": "hyp_drag"
     },
     {
-      "belief": 0.3340961848272551,
+      "belief": 0.33398783183752206,
       "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
       "label": "hyp_mass"
     },
     {
-      "belief": 0.7647172796452008,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane1",
-      "label": "hyp_plane1"
-    },
-    {
-      "belief": 0.7647172796452008,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_plane2",
-      "label": "hyp_plane2"
-    },
-    {
-      "belief": 0.40207635576926437,
+      "belief": 0.894592750289505,
       "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
       "label": "hyp_vacuum_equal"
     },
     {
-      "belief": 0.9444741698245649,
+      "belief": 0.9998678350196281,
       "knowledge_id": "reg:galileo_falling_bodies::obs_air",
       "label": "obs_air"
     },
     {
-      "belief": 0.9000762431658852,
+      "belief": 0.9996110975484434,
       "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
       "label": "obs_daily"
     },
     {
-      "belief": 0.9444741698245649,
+      "belief": 0.9998678350196281,
       "knowledge_id": "reg:galileo_falling_bodies::obs_media",
       "label": "obs_media"
     },
     {
-      "belief": 0.8999369336836983,
+      "belief": 0.9891608793115606,
       "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
       "label": "obs_theta1"
     },
     {
-      "belief": 0.8999369336836983,
+      "belief": 0.9891608793115606,
       "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
       "label": "obs_theta2"
     },
     {
-      "belief": 0.9436873582049876,
-      "knowledge_id": "reg:galileo_falling_bodies::pred_air",
-      "label": "pred_air"
-    },
-    {
-      "belief": 0.8984792344918563,
-      "knowledge_id": "reg:galileo_falling_bodies::pred_daily",
-      "label": "pred_daily"
-    },
-    {
-      "belief": 0.9436873582049876,
-      "knowledge_id": "reg:galileo_falling_bodies::pred_media",
-      "label": "pred_media"
-    },
-    {
-      "belief": 0.8998653572545942,
+      "belief": 0.989189534609568,
       "knowledge_id": "reg:galileo_falling_bodies::pred_theta1",
       "label": "pred_theta1"
     },
     {
-      "belief": 0.8998653572545942,
+      "belief": 0.989189534609568,
       "knowledge_id": "reg:galileo_falling_bodies::pred_theta2",
       "label": "pred_theta2"
     },
     {
-      "belief": 0.9994746120992639,
+      "belief": 0.9995396194130847,
       "knowledge_id": "reg:galileo_falling_bodies::tied_ball_contradiction",
       "label": "tied_ball_contradiction"
     }
@@ -174,106 +134,82 @@
   "diagnostics": {
     "belief_history": {
       "reg:galileo_falling_bodies::__alternative_explanation_37705dcd": [
-        0.2
+        0.23748509343776472
       ],
       "reg:galileo_falling_bodies::__alternative_explanation_c8de506e": [
-        0.4
+        0.9980296028647213
       ],
       "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5": [
-        0.19999999999999998
+        0.23748509343776472
       ],
       "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98": [
-        0.5569839820342085
+        0.9999789659610558
       ],
       "reg:galileo_falling_bodies::__disjunction_result_a8dae375": [
-        0.5569839820342087
+        0.9999789659610558
       ],
       "reg:galileo_falling_bodies::__disjunction_result_b3584e0a": [
-        0.40065807199851783
+        0.9998304540046151
       ],
       "reg:galileo_falling_bodies::__equivalence_result_08feb30c": [
-        0.5900610858423795
+        0.9998886035821386
       ],
       "reg:galileo_falling_bodies::__equivalence_result_944c2cd1": [
-        0.5900610858423795
+        0.9998886035821386
       ],
       "reg:galileo_falling_bodies::__equivalence_result_b04d32f7": [
-        0.4207613431818109
+        0.9998863191845994
       ],
       "reg:galileo_falling_bodies::_anon_000": [
-        0.9990006783961052
+        0.9997933352788443
       ],
       "reg:galileo_falling_bodies::_anon_001": [
-        0.9993957220721865
-      ],
-      "reg:galileo_falling_bodies::_anon_002": [
-        0.9993957220721865
-      ],
-      "reg:galileo_falling_bodies::_anon_003": [
-        0.9997630847239642
-      ],
-      "reg:galileo_falling_bodies::_anon_004": [
-        0.9997630847239642
+        0.9997933352788443
       ],
       "reg:galileo_falling_bodies::final_contradiction": [
-        0.9999981605807408
+        0.9999952668094918
       ],
       "reg:galileo_falling_bodies::hyp_air_resistance": [
-        0.4462301202882068
+        0.9531171060169762
       ],
       "reg:galileo_falling_bodies::hyp_aristotle": [
-        0.0007649832974578927
+        0.0005045408590857539
       ],
       "reg:galileo_falling_bodies::hyp_aristotle_vac": [
-        0.0012431699685932906
+        0.00044484035720619914
       ],
       "reg:galileo_falling_bodies::hyp_drag": [
-        0.3340961848272551
+        0.33398783183752206
       ],
       "reg:galileo_falling_bodies::hyp_mass": [
-        0.3340961848272551
-      ],
-      "reg:galileo_falling_bodies::hyp_plane1": [
-        0.7647172796452008
-      ],
-      "reg:galileo_falling_bodies::hyp_plane2": [
-        0.7647172796452008
+        0.33398783183752206
       ],
       "reg:galileo_falling_bodies::hyp_vacuum_equal": [
-        0.40207635576926437
+        0.894592750289505
       ],
       "reg:galileo_falling_bodies::obs_air": [
-        0.9444741698245649
+        0.9998678350196281
       ],
       "reg:galileo_falling_bodies::obs_daily": [
-        0.9000762431658852
+        0.9996110975484434
       ],
       "reg:galileo_falling_bodies::obs_media": [
-        0.9444741698245649
+        0.9998678350196281
       ],
       "reg:galileo_falling_bodies::obs_theta1": [
-        0.8999369336836983
+        0.9891608793115606
       ],
       "reg:galileo_falling_bodies::obs_theta2": [
-        0.8999369336836983
-      ],
-      "reg:galileo_falling_bodies::pred_air": [
-        0.9436873582049876
-      ],
-      "reg:galileo_falling_bodies::pred_daily": [
-        0.8984792344918563
-      ],
-      "reg:galileo_falling_bodies::pred_media": [
-        0.9436873582049876
+        0.9891608793115606
       ],
       "reg:galileo_falling_bodies::pred_theta1": [
-        0.8998653572545942
+        0.989189534609568
       ],
       "reg:galileo_falling_bodies::pred_theta2": [
-        0.8998653572545942
+        0.989189534609568
       ],
       "reg:galileo_falling_bodies::tied_ball_contradiction": [
-        0.9994746120992639
+        0.9995396194130847
       ]
     },
     "converged": true,
@@ -282,5 +218,5 @@
     "max_change_at_stop": 0.0,
     "treewidth": 2
   },
-  "ir_hash": "sha256:b12641c7684973c72356ea168ef9ad45e3d20f5066bcbbaa63a0b72d545ea4c3"
+  "ir_hash": "sha256:397c81ece01313ccd2e47d960a03d93ac8c9e5f8d9962bed60e6b5fb9e917352"
 }

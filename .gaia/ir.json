@@ -1,9 +1,9 @@
 {
-  "ir_hash": "sha256:b12641c7684973c72356ea168ef9ad45e3d20f5066bcbbaa63a0b72d545ea4c3",
+  "ir_hash": "sha256:397c81ece01313ccd2e47d960a03d93ac8c9e5f8d9962bed60e6b5fb9e917352",
   "knowledges": [
     {
-      "content": "理想化的无空气阻力真空环境，只保留重力作用。",
-      "content_hash": "1c54e9a2ad4b0152a346b2d2a09b3036093a0be9de873bdb6f4706ac1cbcb8ef",
+      "content": "真空是完全没有阻力的理想化环境：介质密度为零，唯一作用力为重力。",
+      "content_hash": "11f4eaa84272f62ed04495eb05559980b85f8b540eaf40a77f765de3e3d0af68",
       "declaration_index": 0,
       "exported": false,
       "id": "reg:galileo_falling_bodies::vacuum",
@@ -12,8 +12,8 @@
       "type": "setting"
     },
     {
-      "content": "伽利略斜面实验的精确受控环境。",
-      "content_hash": "912a3c11004e3503af5825d630d4605d2312257c12d661a4297f471909f34834",
+      "content": "伽利略斜面实验装置：12 腕尺长的抛光木条沟槽，衬以光滑羊皮纸，使用坚硬光滑的青铜球——摩擦和空气阻力可忽略，近似纯重力环境。",
+      "content_hash": "b777bbf2981868f7bbbfe91eb651544dc86bc5851bd452c08eaacd4cb8a79570",
       "declaration_index": 1,
       "exported": false,
       "id": "reg:galileo_falling_bodies::inclined_plane",
@@ -22,8 +22,8 @@
       "type": "setting"
     },
     {
-      "content": "日常经验中，重的石头确实比轻的羽毛下落得快。",
-      "content_hash": "827b3a6cdc8ef589cfbba94630f5a816c62067c680e92f83427aa975822cae97",
+      "content": "日常经验中，较重的物体下落速度确实比较轻的物体快：石头比羽毛快，铁球比木球快。",
+      "content_hash": "c9ca3cc06719af867d1cb6eff7619da6b3a53ddcb2ba4502ce4475917281e918",
       "declaration_index": 2,
       "exported": false,
       "id": "reg:galileo_falling_bodies::obs_daily",
@@ -33,8 +33,8 @@
       "type": "claim"
     },
     {
-      "content": "在水、油等不同介质中比较轻重物体下落，介质越稠密速度差异越大，越稀薄差异越小。",
-      "content_hash": "6ad3b0270b6fa0f075e804286b48dd5a773cbf67a4405b8aed38c3acdeb4cb53",
+      "content": "在不同密度的介质中比较不同重量物体的下落：介质越稠密（如水银、水、油），轻重物体的速度差异越大；介质越稀薄（如空气），差异越小。在水银中，金是唯一能下沉的物质，其他金属和石头都浮在表面。",
+      "content_hash": "f8b6c083d224b8569bfe85a3a822d3b4ad08fbf0daf88a6ed51eba10a100cfad",
       "declaration_index": 3,
       "exported": false,
       "id": "reg:galileo_falling_bodies::obs_media",
@@ -44,8 +44,8 @@
       "type": "claim"
     },
     {
-      "content": "在空气中做精细实验，重量差异较大的物体几乎同时落地，轻微差异可归因于空气阻力。",
-      "content_hash": "70958d36a6d8f74477ead3b2b9035822d1726dc1aa91ced1b9f55df5b3032a38",
+      "content": "在空气中做精细实验：金球、铅球、铜球、斑岩球等重材料球从 100 腕尺高处落下，金球领先铜球不超过四指宽。",
+      "content_hash": "362a5073cb13f13c502b82feecf09eb6739ed1dd6e12cc661206690b7240ee28",
       "declaration_index": 4,
       "exported": false,
       "id": "reg:galileo_falling_bodies::obs_air",
@@ -55,30 +55,30 @@
       "type": "claim"
     },
     {
-      "content": "斜面实验第一组：不同重量小球在 30° 斜面呈现近似一致加速趋势。",
-      "content_hash": "9b0b5ed843df543effe25d7f8e6a587db3457bb0316b2b32ce949f85c1d79ffc",
+      "content": "斜面实验第一组：在倾角 θ₁ 下，不同重量的光滑青铜球沿抛光沟槽滚下，所经距离之比等于时间之比的平方，与球的重量无关。",
+      "content_hash": "29259e1b341e348b9425860bfbaf996079280a216d21b8baea948bb350015cbe",
       "declaration_index": 5,
       "exported": false,
       "id": "reg:galileo_falling_bodies::obs_theta1",
       "label": "obs_theta1",
       "parameters": [],
-      "title": "Inclined Plane 30°",
+      "title": "Inclined Plane θ₁",
       "type": "claim"
     },
     {
-      "content": "斜面实验第二组：60° 斜面重复实验，结果一致确认等加速。",
-      "content_hash": "4c82a7f6992237fe68707c3058c5da7282e52aa518bee461bc78446dc8dbf4ad",
+      "content": "斜面实验第二组：在另一倾角 θ₂ 下重复实验，结果一致确认距离 ∝ 时间²，与重量无关。实验重复整整一百次，对所有倾角均成立。",
+      "content_hash": "b675fa1c1cd6bbba7c6638ab7373956c07ba7ce8258f9716b74b8c43886f84aa",
       "declaration_index": 6,
       "exported": false,
       "id": "reg:galileo_falling_bodies::obs_theta2",
       "label": "obs_theta2",
       "parameters": [],
-      "title": "Inclined Plane 60°",
+      "title": "Inclined Plane θ₂",
       "type": "claim"
     },
     {
-      "content": "物体下落速度与重量成正比：重物比轻物下落更快。",
-      "content_hash": "9d102879c560911b5d0ca0122f3a08d787e09186b88fdd5bd8571a02d57a7a37",
+      "content": "物体的下落速度与其重量成正比：一个重量是另一个两倍的物体，通过同样距离所需时间为后者的一半。即重物比轻物下落更快。",
+      "content_hash": "dd1fc98769fbc9b10f0ef007a395c904883a71eb787806b666e70b31a3d02601",
       "declaration_index": 7,
       "exported": false,
       "id": "reg:galileo_falling_bodies::hyp_aristotle",
@@ -88,54 +88,86 @@
       "type": "claim"
     },
     {
-      "content": "亚里士多德定律预测：日常中重物应比轻物下落更快。",
-      "content_hash": "58f3f700dbc65a8fcf41203b10d7fa2af702b863d597f05c9635daaae9852793",
+      "content": "不同重量物体的下落速度差异完全由介质阻力造成——阻力是速度差异的唯一原因。阻力越大，差异越大；阻力越小，差异越小。",
+      "content_hash": "c9908662b5a1a15d1cfc9db010fa030f85d521ffc38b6ec62c8e6a74f9369bb9",
       "declaration_index": 8,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::pred_daily",
-      "label": "pred_daily",
+      "exported": true,
+      "id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "label": "hyp_air_resistance",
       "parameters": [],
-      "title": "Aristotle Daily Prediction",
+      "title": "Air Resistance Hypothesis",
       "type": "claim"
     },
     {
-      "content": "same_truth(A, B)",
-      "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
+      "content": "在完全没有阻力的介质（真空）中，不同重量的物体以相同速率下落。",
+      "content_hash": "42571577c94af98df3725e59beeffbd3b92ba91f4469592c85a2db462ae908a2",
       "declaration_index": 9,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::_anon_000",
-      "metadata": {
-        "helper_kind": "equivalence_result"
-      },
+      "exported": true,
+      "id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "label": "hyp_vacuum_equal",
       "parameters": [],
+      "title": "Vacuum Equal Speed",
       "type": "claim"
     },
     {
-      "content": "假设重物下落更快，将重球 H 与轻球 L 绑在一起，L 拖拽 H，复合体 HL 速度应慢于 H 单独下落。",
-      "content_hash": "68c6165bb599bb55f96aab16fe9db71d61cc262044d9b4cfffb98fc342eba3a6",
+      "content": "在亚里士多德定律下，将重球 H（速度 8）与轻球 L（速度 4）绑在一起，L 对 H 产生拖拽，复合体 HL 的下落速度应小于 H 单独的速度 8。",
+      "content_hash": "16e36b10163b2f5c92dd7c5ae8979babe023cd3bf6e5b06b924d9b102fa56b14",
       "declaration_index": 10,
       "exported": false,
       "id": "reg:galileo_falling_bodies::hyp_drag",
       "label": "hyp_drag",
       "parameters": [],
-      "title": "Drag Argument (T1)",
+      "title": "Tied-Ball Drag Argument",
       "type": "claim"
     },
     {
-      "content": "假设重物下落更快，复合体 HL 总重量大于 H，因此 HL 速度应快于 H 单独下落。",
-      "content_hash": "b0c31b44085251d7fb30b258fb36ef0e1f8b1c16190ec351f3a331f7e3d8f059",
+      "content": "在亚里士多德定律下，复合体 HL 的总重量大于 H 单独的重量，因此按该定律，HL 的下落速度应大于 H 单独的速度 8。",
+      "content_hash": "ac14f8fbd78c3c7db9465c5ffa97b54ca86bb68d22401fa77659c62db2f5679a",
       "declaration_index": 11,
       "exported": false,
       "id": "reg:galileo_falling_bodies::hyp_mass",
       "label": "hyp_mass",
       "parameters": [],
-      "title": "Mass Argument (T2)",
+      "title": "Tied-Ball Mass Argument",
+      "type": "claim"
+    },
+    {
+      "content": "若物体下落速度与重量成正比是普遍规律，则在真空中也应如此：较重物体在真空中仍比较轻物体下落更快。",
+      "content_hash": "22388b03ff61f4f9b09ebf7123cc75584a28a895816b736d583f75eb9cfb84a8",
+      "declaration_index": 12,
+      "exported": false,
+      "id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "label": "hyp_aristotle_vac",
+      "parameters": [],
+      "title": "Aristotle in Vacuum",
+      "type": "claim"
+    },
+    {
+      "content": "等速假说预测：在近似无摩擦的斜面上（倾角 θ₁），不同重量的球应呈等加速，距离 ∝ 时间²，与重量无关。",
+      "content_hash": "49cc786cbe776eaa86725e6a9b4b5ee2f1304e9a74ced361ba09e95462d520c0",
+      "declaration_index": 13,
+      "exported": false,
+      "id": "reg:galileo_falling_bodies::pred_theta1",
+      "label": "pred_theta1",
+      "parameters": [],
+      "title": "Plane Prediction θ₁",
+      "type": "claim"
+    },
+    {
+      "content": "等速假说预测：在另一倾角（θ₂）的斜面上，同样应呈等加速，距离 ∝ 时间²，与重量无关。",
+      "content_hash": "fa9032131e23d9ab146ed1bd03e09031bfac55a71944291e343faea943a7351c",
+      "declaration_index": 14,
+      "exported": false,
+      "id": "reg:galileo_falling_bodies::pred_theta2",
+      "label": "pred_theta2",
+      "parameters": [],
+      "title": "Plane Prediction θ₂",
       "type": "claim"
     },
     {
       "content": "not_both_true(A, B)",
       "content_hash": "468923920550aff97ac2349f7d0a5b32e6560066b45861bf367db7f40e8649a7",
-      "declaration_index": 12,
+      "declaration_index": 15,
       "exported": false,
       "id": "reg:galileo_falling_bodies::tied_ball_contradiction",
       "label": "tied_ball_contradiction",
@@ -146,42 +178,21 @@
       "type": "claim"
     },
     {
-      "content": "按亚里士多德定律，在真空中也应重者下落更快。",
-      "content_hash": "cf74603746d572d6ea99d390bffeff89c210f30f8e01b8c999c5ad533800604d",
-      "declaration_index": 13,
+      "content": "same_truth(A, B)",
+      "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
+      "declaration_index": 16,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
-      "label": "hyp_aristotle_vac",
+      "id": "reg:galileo_falling_bodies::_anon_000",
+      "metadata": {
+        "helper_kind": "equivalence_result"
+      },
       "parameters": [],
-      "title": "Aristotle in Vacuum",
-      "type": "claim"
-    },
-    {
-      "content": "日常观察到的速度差异由空气阻力造成，而非重量本身决定。",
-      "content_hash": "d23a7116305b42381cb78a05e2b2c835d6851fa4ad8ed45d1a92dbb149a2fa49",
-      "declaration_index": 14,
-      "exported": true,
-      "id": "reg:galileo_falling_bodies::hyp_air_resistance",
-      "label": "hyp_air_resistance",
-      "parameters": [],
-      "title": "Air Resistance Hypothesis",
-      "type": "claim"
-    },
-    {
-      "content": "空气阻力假说预测：在不同密度介质中，密度越低则轻重物体速度差越小。",
-      "content_hash": "749b0e8d91f1bfdb6a096adcc104add0d70258e397863eb0bc875f7b9468cdbc",
-      "declaration_index": 15,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::pred_media",
-      "label": "pred_media",
-      "parameters": [],
-      "title": "Media Prediction",
       "type": "claim"
     },
     {
       "content": "same_truth(A, B)",
       "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
-      "declaration_index": 16,
+      "declaration_index": 17,
       "exported": false,
       "id": "reg:galileo_falling_bodies::_anon_001",
       "metadata": {
@@ -191,111 +202,9 @@
       "type": "claim"
     },
     {
-      "content": "空气阻力假说预测：在空气中做精细实验，应观测到轻重物体几乎同速。",
-      "content_hash": "2e4379add70f8b312a11f666180ccab3f2d57ec74aa7cf5cc0cec72527c6cfeb",
-      "declaration_index": 17,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::pred_air",
-      "label": "pred_air",
-      "parameters": [],
-      "title": "Air Prediction",
-      "type": "claim"
-    },
-    {
-      "content": "same_truth(A, B)",
-      "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
-      "declaration_index": 18,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::_anon_002",
-      "metadata": {
-        "helper_kind": "equivalence_result"
-      },
-      "parameters": [],
-      "type": "claim"
-    },
-    {
-      "content": "如果速度差异纯由空气阻力造成，则在真空中不同重量物体应等速下落。",
-      "content_hash": "980ebe8bda51d67763413de1917d27e93259efc91127b163e3c6cb69775821f1",
-      "declaration_index": 19,
-      "exported": true,
-      "id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
-      "label": "hyp_vacuum_equal",
-      "parameters": [],
-      "title": "Vacuum Equal Speed",
-      "type": "claim"
-    },
-    {
-      "content": "第一组斜面实验支持真空等速下落。",
-      "content_hash": "775ba7050ff2562b0c33b2017d9bb46e8515d1a8ad1408a8f7e720ec3683177c",
-      "declaration_index": 20,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::hyp_plane1",
-      "label": "hyp_plane1",
-      "parameters": [],
-      "title": "Plane Evidence 1",
-      "type": "claim"
-    },
-    {
-      "content": "第二组斜面实验支持真空等速下落。",
-      "content_hash": "7e5877c43627c3e414012d8b1ea8cef7fef1339e63bcc44fae32ddfed3f28119",
-      "declaration_index": 21,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::hyp_plane2",
-      "label": "hyp_plane2",
-      "parameters": [],
-      "title": "Plane Evidence 2",
-      "type": "claim"
-    },
-    {
-      "content": "等速假说预测第一组斜面实验应呈等加速。",
-      "content_hash": "d41346a8b4beaa7d750c649e394ee0113988243c5a5b76a62552c99d4a64e5ec",
-      "declaration_index": 22,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::pred_theta1",
-      "label": "pred_theta1",
-      "parameters": [],
-      "title": "Plane Prediction 1",
-      "type": "claim"
-    },
-    {
-      "content": "same_truth(A, B)",
-      "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
-      "declaration_index": 23,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::_anon_003",
-      "metadata": {
-        "helper_kind": "equivalence_result"
-      },
-      "parameters": [],
-      "type": "claim"
-    },
-    {
-      "content": "等速假说预测第二组斜面实验应呈等加速。",
-      "content_hash": "930531b7b155148ad52627356e01c1b215055632122b254750955e647bc73fef",
-      "declaration_index": 24,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::pred_theta2",
-      "label": "pred_theta2",
-      "parameters": [],
-      "title": "Plane Prediction 2",
-      "type": "claim"
-    },
-    {
-      "content": "same_truth(A, B)",
-      "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
-      "declaration_index": 25,
-      "exported": false,
-      "id": "reg:galileo_falling_bodies::_anon_004",
-      "metadata": {
-        "helper_kind": "equivalence_result"
-      },
-      "parameters": [],
-      "type": "claim"
-    },
-    {
       "content": "not_both_true(A, B)",
       "content_hash": "468923920550aff97ac2349f7d0a5b32e6560066b45861bf367db7f40e8649a7",
-      "declaration_index": 26,
+      "declaration_index": 18,
       "exported": false,
       "id": "reg:galileo_falling_bodies::final_contradiction",
       "label": "final_contradiction",
@@ -483,22 +392,9 @@
   "namespace": "reg",
   "operators": [
     {
-      "conclusion": "reg:galileo_falling_bodies::_anon_000",
-      "metadata": {
-        "reason": "亚里士多德的日常预测与日常观测一致。"
-      },
-      "operator": "equivalence",
-      "operator_id": "lco_c7bc0c39eb2ef724",
-      "scope": "local",
-      "variables": [
-        "reg:galileo_falling_bodies::pred_daily",
-        "reg:galileo_falling_bodies::obs_daily"
-      ]
-    },
-    {
       "conclusion": "reg:galileo_falling_bodies::tied_ball_contradiction",
       "metadata": {
-        "reason": "T1 与 T2 互相矛盾：复合体 HL 不能同时慢于 H 又快于 H。"
+        "reason": "同一复合体 HL 不能同时比 H 慢（@hyp_drag）又比 H 快（@hyp_mass），这是逻辑矛盾。伽利略原文：'the heavier body moves with less speed than the lighter; an effect which is contrary to your supposition.'"
       },
       "operator": "contradiction",
       "operator_id": "lco_a59c720f7a9b2034",
@@ -509,38 +405,12 @@
       ]
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::_anon_001",
+      "conclusion": "reg:galileo_falling_bodies::_anon_000",
       "metadata": {
-        "reason": "介质预测与介质观测一致。"
+        "reason": "第一组斜面预测（@pred_theta1）与观测（@obs_theta1）一致。"
       },
       "operator": "equivalence",
-      "operator_id": "lco_d33e7d49d52171a5",
-      "scope": "local",
-      "variables": [
-        "reg:galileo_falling_bodies::pred_media",
-        "reg:galileo_falling_bodies::obs_media"
-      ]
-    },
-    {
-      "conclusion": "reg:galileo_falling_bodies::_anon_002",
-      "metadata": {
-        "reason": "空气预测与空气实验一致。"
-      },
-      "operator": "equivalence",
-      "operator_id": "lco_6bd677194220980d",
-      "scope": "local",
-      "variables": [
-        "reg:galileo_falling_bodies::pred_air",
-        "reg:galileo_falling_bodies::obs_air"
-      ]
-    },
-    {
-      "conclusion": "reg:galileo_falling_bodies::_anon_003",
-      "metadata": {
-        "reason": "第一组斜面预测与观测一致。"
-      },
-      "operator": "equivalence",
-      "operator_id": "lco_bc42e3198bf9d363",
+      "operator_id": "lco_9fb2942c42a97634",
       "scope": "local",
       "variables": [
         "reg:galileo_falling_bodies::pred_theta1",
@@ -548,12 +418,12 @@
       ]
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::_anon_004",
+      "conclusion": "reg:galileo_falling_bodies::_anon_001",
       "metadata": {
-        "reason": "第二组斜面预测与观测一致。"
+        "reason": "第二组斜面预测（@pred_theta2）与观测（@obs_theta2）一致。"
       },
       "operator": "equivalence",
-      "operator_id": "lco_27eee162e1f94e2e",
+      "operator_id": "lco_8ce9e50babb7be5a",
       "scope": "local",
       "variables": [
         "reg:galileo_falling_bodies::pred_theta2",
@@ -563,7 +433,7 @@
     {
       "conclusion": "reg:galileo_falling_bodies::final_contradiction",
       "metadata": {
-        "reason": "真空中不能同时'重者更快'又'等速下落'。"
+        "reason": "'真空中重者更快'（@hyp_aristotle_vac）与'真空中等速下落'（@hyp_vacuum_equal）互斥，不能同时为真。"
       },
       "operator": "contradiction",
       "operator_id": "lco_4bc9f0561783116c",
@@ -609,7 +479,8 @@
           "observation": [
             "reg:galileo_falling_bodies::obs_daily"
           ]
-        }
+        },
+        "reason": "日常经验中（@obs_daily），重的石头比轻的羽毛下落更快，铁球比木球更快。由此推断普遍规律：物体下落速度与重量成正比（@hyp_aristotle）。"
       },
       "premises": [
         "reg:galileo_falling_bodies::obs_daily",
@@ -618,30 +489,6 @@
       "scope": "local",
       "strategy_id": "lcs_c1c1dfd56bed3df7",
       "type": "abduction"
-    },
-    {
-      "conclusion": "reg:galileo_falling_bodies::pred_daily",
-      "formal_expr": {
-        "operators": [
-          {
-            "conclusion": "reg:galileo_falling_bodies::pred_daily",
-            "operator": "implication",
-            "variables": [
-              "reg:galileo_falling_bodies::hyp_aristotle"
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "formalization_template": "deduction",
-        "generated_formal_expr": true
-      },
-      "premises": [
-        "reg:galileo_falling_bodies::hyp_aristotle"
-      ],
-      "scope": "local",
-      "strategy_id": "lcs_8994b48b08b84af4",
-      "type": "deduction"
     },
     {
       "conclusion": "reg:galileo_falling_bodies::hyp_drag",
@@ -658,7 +505,8 @@
       },
       "metadata": {
         "formalization_template": "deduction",
-        "generated_formal_expr": true
+        "generated_formal_expr": true,
+        "reason": "假设亚里士多德定律（@hyp_aristotle）成立：重物下落更快。将重球 H（速度 8）与轻球 L（速度 4）绑在一起，由于 L 比 H 慢，L 会拖拽 H 使复合体减速，因此复合体 HL 的速度应小于 H 的速度 8（@hyp_drag）。"
       },
       "premises": [
         "reg:galileo_falling_bodies::hyp_aristotle"
@@ -682,7 +530,8 @@
       },
       "metadata": {
         "formalization_template": "deduction",
-        "generated_formal_expr": true
+        "generated_formal_expr": true,
+        "reason": "假设亚里士多德定律（@hyp_aristotle）成立：速度与重量成正比。复合体 HL 的总重量 = H + L > H，按该定律，HL 的速度应大于 H 的速度 8（@hyp_mass）。"
       },
       "premises": [
         "reg:galileo_falling_bodies::hyp_aristotle"
@@ -696,6 +545,9 @@
         "reg:galileo_falling_bodies::vacuum"
       ],
       "conclusion": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "metadata": {
+        "reason": "若亚里士多德定律（@hyp_aristotle）是关于下落速度的普遍规律，将其应用到真空环境（@vacuum）也应成立：在真空中重的物体仍比轻的下落更快（@hyp_aristotle_vac）。"
+      },
       "premises": [
         "reg:galileo_falling_bodies::hyp_aristotle"
       ],
@@ -789,6 +641,9 @@
     },
     {
       "conclusion": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "metadata": {
+        "reason": "在不同介质中（@obs_media），介质越稠密速度差异越大、越稀薄差异越小；在空气中（@obs_air），重材料球从 100 腕尺落下速度几乎相同。伽利略由此推断：速度差异完全由介质阻力造成——阻力是差异的唯一原因（@hyp_air_resistance）。此推理为溯因推断：不仅编码了'密度越低差异越小'的相关性，还主张因果机制——阻力决定差异。"
+      },
       "premises": [
         "reg:galileo_falling_bodies::obs_media",
         "reg:galileo_falling_bodies::obs_air"
@@ -802,58 +657,13 @@
       "type": "induction"
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::pred_media",
-      "formal_expr": {
-        "operators": [
-          {
-            "conclusion": "reg:galileo_falling_bodies::pred_media",
-            "operator": "implication",
-            "variables": [
-              "reg:galileo_falling_bodies::hyp_air_resistance"
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "formalization_template": "deduction",
-        "generated_formal_expr": true
-      },
-      "premises": [
-        "reg:galileo_falling_bodies::hyp_air_resistance"
-      ],
-      "scope": "local",
-      "strategy_id": "lcs_e09f5da590556e0c",
-      "type": "deduction"
-    },
-    {
-      "conclusion": "reg:galileo_falling_bodies::pred_air",
-      "formal_expr": {
-        "operators": [
-          {
-            "conclusion": "reg:galileo_falling_bodies::pred_air",
-            "operator": "implication",
-            "variables": [
-              "reg:galileo_falling_bodies::hyp_air_resistance"
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "formalization_template": "deduction",
-        "generated_formal_expr": true
-      },
-      "premises": [
-        "reg:galileo_falling_bodies::hyp_air_resistance"
-      ],
-      "scope": "local",
-      "strategy_id": "lcs_50da2e244069fa8b",
-      "type": "deduction"
-    },
-    {
       "background": [
         "reg:galileo_falling_bodies::vacuum"
       ],
       "conclusion": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "metadata": {
+        "reason": "若阻力是速度差异的唯一原因（@hyp_air_resistance），且真空中阻力为零（@vacuum），则真空中速度差异为零，即不同重量物体等速下落（@hyp_vacuum_equal）。"
+      },
       "premises": [
         "reg:galileo_falling_bodies::hyp_air_resistance"
       ],
@@ -865,27 +675,6 @@
       "background": [
         "reg:galileo_falling_bodies::inclined_plane"
       ],
-      "conclusion": "reg:galileo_falling_bodies::hyp_plane1",
-      "premises": [
-        "reg:galileo_falling_bodies::obs_theta1"
-      ],
-      "scope": "local",
-      "strategy_id": "lcs_302f74c32c6b6f49",
-      "type": "noisy_and"
-    },
-    {
-      "background": [
-        "reg:galileo_falling_bodies::inclined_plane"
-      ],
-      "conclusion": "reg:galileo_falling_bodies::hyp_plane2",
-      "premises": [
-        "reg:galileo_falling_bodies::obs_theta2"
-      ],
-      "scope": "local",
-      "strategy_id": "lcs_1c0cce98f5b30901",
-      "type": "noisy_and"
-    },
-    {
       "conclusion": "reg:galileo_falling_bodies::pred_theta1",
       "formal_expr": {
         "operators": [
@@ -893,23 +682,27 @@
             "conclusion": "reg:galileo_falling_bodies::pred_theta1",
             "operator": "implication",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_plane1"
+              "reg:galileo_falling_bodies::hyp_vacuum_equal"
             ]
           }
         ]
       },
       "metadata": {
         "formalization_template": "deduction",
-        "generated_formal_expr": true
+        "generated_formal_expr": true,
+        "reason": "若真空中不同重量物体等速下落（@hyp_vacuum_equal），在近似无摩擦的斜面上（@inclined_plane），不同重量的球也应呈等加速（@pred_theta1）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_plane1"
+        "reg:galileo_falling_bodies::hyp_vacuum_equal"
       ],
       "scope": "local",
-      "strategy_id": "lcs_a75efc191cc0654e",
+      "strategy_id": "lcs_03e128bd69168aab",
       "type": "deduction"
     },
     {
+      "background": [
+        "reg:galileo_falling_bodies::inclined_plane"
+      ],
       "conclusion": "reg:galileo_falling_bodies::pred_theta2",
       "formal_expr": {
         "operators": [
@@ -917,20 +710,21 @@
             "conclusion": "reg:galileo_falling_bodies::pred_theta2",
             "operator": "implication",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_plane2"
+              "reg:galileo_falling_bodies::hyp_vacuum_equal"
             ]
           }
         ]
       },
       "metadata": {
         "formalization_template": "deduction",
-        "generated_formal_expr": true
+        "generated_formal_expr": true,
+        "reason": "若真空中不同重量物体等速下落（@hyp_vacuum_equal），在另一倾角的斜面上（@inclined_plane），同样应呈等加速（@pred_theta2）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_plane2"
+        "reg:galileo_falling_bodies::hyp_vacuum_equal"
       ],
       "scope": "local",
-      "strategy_id": "lcs_7703e4438b9934be",
+      "strategy_id": "lcs_37828a2f760b3242",
       "type": "deduction"
     }
   ]
