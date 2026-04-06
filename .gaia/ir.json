@@ -1,12 +1,12 @@
 {
-  "ir_hash": "sha256:397c81ece01313ccd2e47d960a03d93ac8c9e5f8d9962bed60e6b5fb9e917352",
+  "ir_hash": "sha256:236f07eca3429d93c11df0b4ebdca0e49c113c3826fbbd1ccd9a3297d3769833",
   "knowledges": [
     {
       "content": "真空是完全没有阻力的理想化环境：介质密度为零，唯一作用力为重力。",
       "content_hash": "11f4eaa84272f62ed04495eb05559980b85f8b540eaf40a77f765de3e3d0af68",
       "declaration_index": 0,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::vacuum",
+      "id": "github:galileo_falling_bodies::vacuum",
       "label": "vacuum",
       "parameters": [],
       "type": "setting"
@@ -16,7 +16,7 @@
       "content_hash": "b777bbf2981868f7bbbfe91eb651544dc86bc5851bd452c08eaacd4cb8a79570",
       "declaration_index": 1,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::inclined_plane",
+      "id": "github:galileo_falling_bodies::inclined_plane",
       "label": "inclined_plane",
       "parameters": [],
       "type": "setting"
@@ -26,7 +26,7 @@
       "content_hash": "c9ca3cc06719af867d1cb6eff7619da6b3a53ddcb2ba4502ce4475917281e918",
       "declaration_index": 2,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::obs_daily",
+      "id": "github:galileo_falling_bodies::obs_daily",
       "label": "obs_daily",
       "parameters": [],
       "title": "Daily Observation",
@@ -37,7 +37,7 @@
       "content_hash": "f8b6c083d224b8569bfe85a3a822d3b4ad08fbf0daf88a6ed51eba10a100cfad",
       "declaration_index": 3,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::obs_media",
+      "id": "github:galileo_falling_bodies::obs_media",
       "label": "obs_media",
       "parameters": [],
       "title": "Media Observation",
@@ -48,7 +48,7 @@
       "content_hash": "362a5073cb13f13c502b82feecf09eb6739ed1dd6e12cc661206690b7240ee28",
       "declaration_index": 4,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::obs_air",
+      "id": "github:galileo_falling_bodies::obs_air",
       "label": "obs_air",
       "parameters": [],
       "title": "Air Experiment",
@@ -59,7 +59,7 @@
       "content_hash": "29259e1b341e348b9425860bfbaf996079280a216d21b8baea948bb350015cbe",
       "declaration_index": 5,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::obs_theta1",
+      "id": "github:galileo_falling_bodies::obs_theta1",
       "label": "obs_theta1",
       "parameters": [],
       "title": "Inclined Plane θ₁",
@@ -70,7 +70,7 @@
       "content_hash": "b675fa1c1cd6bbba7c6638ab7373956c07ba7ce8258f9716b74b8c43886f84aa",
       "declaration_index": 6,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::obs_theta2",
+      "id": "github:galileo_falling_bodies::obs_theta2",
       "label": "obs_theta2",
       "parameters": [],
       "title": "Inclined Plane θ₂",
@@ -81,7 +81,7 @@
       "content_hash": "dd1fc98769fbc9b10f0ef007a395c904883a71eb787806b666e70b31a3d02601",
       "declaration_index": 7,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::hyp_aristotle",
+      "id": "github:galileo_falling_bodies::hyp_aristotle",
       "label": "hyp_aristotle",
       "parameters": [],
       "title": "Aristotle's Law",
@@ -92,7 +92,7 @@
       "content_hash": "c9908662b5a1a15d1cfc9db010fa030f85d521ffc38b6ec62c8e6a74f9369bb9",
       "declaration_index": 8,
       "exported": true,
-      "id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "id": "github:galileo_falling_bodies::hyp_air_resistance",
       "label": "hyp_air_resistance",
       "parameters": [],
       "title": "Air Resistance Hypothesis",
@@ -103,7 +103,7 @@
       "content_hash": "42571577c94af98df3725e59beeffbd3b92ba91f4469592c85a2db462ae908a2",
       "declaration_index": 9,
       "exported": true,
-      "id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "id": "github:galileo_falling_bodies::hyp_vacuum_equal",
       "label": "hyp_vacuum_equal",
       "parameters": [],
       "title": "Vacuum Equal Speed",
@@ -114,7 +114,7 @@
       "content_hash": "16e36b10163b2f5c92dd7c5ae8979babe023cd3bf6e5b06b924d9b102fa56b14",
       "declaration_index": 10,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::hyp_drag",
+      "id": "github:galileo_falling_bodies::hyp_drag",
       "label": "hyp_drag",
       "parameters": [],
       "title": "Tied-Ball Drag Argument",
@@ -125,7 +125,7 @@
       "content_hash": "ac14f8fbd78c3c7db9465c5ffa97b54ca86bb68d22401fa77659c62db2f5679a",
       "declaration_index": 11,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::hyp_mass",
+      "id": "github:galileo_falling_bodies::hyp_mass",
       "label": "hyp_mass",
       "parameters": [],
       "title": "Tied-Ball Mass Argument",
@@ -136,7 +136,7 @@
       "content_hash": "22388b03ff61f4f9b09ebf7123cc75584a28a895816b736d583f75eb9cfb84a8",
       "declaration_index": 12,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "id": "github:galileo_falling_bodies::hyp_aristotle_vac",
       "label": "hyp_aristotle_vac",
       "parameters": [],
       "title": "Aristotle in Vacuum",
@@ -147,7 +147,7 @@
       "content_hash": "49cc786cbe776eaa86725e6a9b4b5ee2f1304e9a74ced361ba09e95462d520c0",
       "declaration_index": 13,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::pred_theta1",
+      "id": "github:galileo_falling_bodies::pred_theta1",
       "label": "pred_theta1",
       "parameters": [],
       "title": "Plane Prediction θ₁",
@@ -158,7 +158,7 @@
       "content_hash": "fa9032131e23d9ab146ed1bd03e09031bfac55a71944291e343faea943a7351c",
       "declaration_index": 14,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::pred_theta2",
+      "id": "github:galileo_falling_bodies::pred_theta2",
       "label": "pred_theta2",
       "parameters": [],
       "title": "Plane Prediction θ₂",
@@ -169,7 +169,7 @@
       "content_hash": "468923920550aff97ac2349f7d0a5b32e6560066b45861bf367db7f40e8649a7",
       "declaration_index": 15,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::tied_ball_contradiction",
+      "id": "github:galileo_falling_bodies::tied_ball_contradiction",
       "label": "tied_ball_contradiction",
       "metadata": {
         "helper_kind": "contradiction_result"
@@ -182,7 +182,7 @@
       "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
       "declaration_index": 16,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::_anon_000",
+      "id": "github:galileo_falling_bodies::_anon_000",
       "metadata": {
         "helper_kind": "equivalence_result"
       },
@@ -194,7 +194,7 @@
       "content_hash": "4081d83356ef89148711fb22676872d7e8303be796b7b16a2fe55993e0032554",
       "declaration_index": 17,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::_anon_001",
+      "id": "github:galileo_falling_bodies::_anon_001",
       "metadata": {
         "helper_kind": "equivalence_result"
       },
@@ -206,7 +206,7 @@
       "content_hash": "468923920550aff97ac2349f7d0a5b32e6560066b45861bf367db7f40e8649a7",
       "declaration_index": 18,
       "exported": false,
-      "id": "reg:galileo_falling_bodies::final_contradiction",
+      "id": "github:galileo_falling_bodies::final_contradiction",
       "label": "final_contradiction",
       "metadata": {
         "helper_kind": "contradiction_result"
@@ -215,17 +215,17 @@
       "type": "claim"
     },
     {
-      "content": "alternative_explanation_for(reg:galileo_falling_bodies::obs_daily)",
-      "content_hash": "0bae22d889524fd1c84d22ecf0a4f510a55dc1731f191831f4272f135815fa4b",
+      "content": "alternative_explanation_for(github:galileo_falling_bodies::obs_daily)",
+      "content_hash": "9ad876afd373a771fd7f4b4828ac831360b720ab7312d0e4262fbcaf13ded9c5",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
-      "label": "__alternative_explanation_c8de506e",
+      "id": "github:galileo_falling_bodies::__alternative_explanation_e703a823",
+      "label": "__alternative_explanation_e703a823",
       "metadata": {
-        "canonical_name": "alternative_explanation_for(reg:galileo_falling_bodies::obs_daily)",
+        "canonical_name": "alternative_explanation_for(github:galileo_falling_bodies::obs_daily)",
         "generated": true,
         "generated_kind": "interface_claim",
         "interface_role": "alternative_explanation",
-        "owning_strategy_id": "lcs_c1c1dfd56bed3df7",
+        "owning_strategy_id": "lcs_2f65b53394988713",
         "owning_strategy_type": "abduction",
         "visibility": "strategy_interface"
       },
@@ -233,19 +233,19 @@
       "type": "claim"
     },
     {
-      "content": "explains(reg:galileo_falling_bodies::obs_daily)",
-      "content_hash": "3e65855e04f259c3c79ad5ba72225873af6a90ee2e2f7c7c852b179dfb60e4b2",
+      "content": "explains(github:galileo_falling_bodies::obs_daily)",
+      "content_hash": "c12745e0beb5a4090b02329fe779c500573f9a2579477c2c586af38202274e78",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__disjunction_result_b3584e0a",
-      "label": "__disjunction_result_b3584e0a",
+      "id": "github:galileo_falling_bodies::__disjunction_result_bec07209",
+      "label": "__disjunction_result_bec07209",
       "metadata": {
-        "canonical_name": "explains(reg:galileo_falling_bodies::obs_daily)",
+        "canonical_name": "explains(github:galileo_falling_bodies::obs_daily)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "disjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "disjunction_result",
-        "owning_strategy_id": "lcs_c1c1dfd56bed3df7",
+        "owning_strategy_id": "lcs_2f65b53394988713",
         "owning_strategy_type": "abduction",
         "visibility": "formal_internal"
       },
@@ -253,19 +253,19 @@
       "type": "claim"
     },
     {
-      "content": "same_truth(reg:galileo_falling_bodies::__disjunction_result_b3584e0a,reg:galileo_falling_bodies::obs_daily)",
-      "content_hash": "ac64a87bbf1fca9901cf092c5a99c9e342585f5c7c66435bfd1bd59a8e7969a3",
+      "content": "same_truth(github:galileo_falling_bodies::__disjunction_result_bec07209,github:galileo_falling_bodies::obs_daily)",
+      "content_hash": "a70357cbe36dc2c6f5c118dd247109b095c470390ac64cae94518a006a400fee",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__equivalence_result_b04d32f7",
-      "label": "__equivalence_result_b04d32f7",
+      "id": "github:galileo_falling_bodies::__equivalence_result_96dfff7e",
+      "label": "__equivalence_result_96dfff7e",
       "metadata": {
-        "canonical_name": "same_truth(reg:galileo_falling_bodies::__disjunction_result_b3584e0a,reg:galileo_falling_bodies::obs_daily)",
+        "canonical_name": "same_truth(github:galileo_falling_bodies::__disjunction_result_bec07209,github:galileo_falling_bodies::obs_daily)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "equivalence_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "equivalence_result",
-        "owning_strategy_id": "lcs_c1c1dfd56bed3df7",
+        "owning_strategy_id": "lcs_2f65b53394988713",
         "owning_strategy_type": "abduction",
         "visibility": "formal_internal"
       },
@@ -273,17 +273,17 @@
       "type": "claim"
     },
     {
-      "content": "alternative_explanation_for(reg:galileo_falling_bodies::obs_media)",
-      "content_hash": "7990dd4d46a2512c1e848c584dd00b2225be17da5423905ebf78523237a7b5de",
+      "content": "alternative_explanation_for(github:galileo_falling_bodies::obs_media)",
+      "content_hash": "26327759e654f84f017c1b2185dd2c86acf09fa1c7c6435ccab5b0b169311c0c",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
-      "label": "__alternative_explanation_fd4bc5a5",
+      "id": "github:galileo_falling_bodies::__alternative_explanation_af3a0d09",
+      "label": "__alternative_explanation_af3a0d09",
       "metadata": {
-        "canonical_name": "alternative_explanation_for(reg:galileo_falling_bodies::obs_media)",
+        "canonical_name": "alternative_explanation_for(github:galileo_falling_bodies::obs_media)",
         "generated": true,
         "generated_kind": "interface_claim",
         "interface_role": "alternative_explanation",
-        "owning_strategy_id": "lcs_02e50c572622fd83",
+        "owning_strategy_id": "lcs_e6f30f8a8d56a197",
         "owning_strategy_type": "abduction",
         "visibility": "strategy_interface"
       },
@@ -291,19 +291,19 @@
       "type": "claim"
     },
     {
-      "content": "explains(reg:galileo_falling_bodies::obs_media)",
-      "content_hash": "8bc2524f55734674b39b07460d5cd9c17aaaa65789865e59305789ac50556d31",
+      "content": "explains(github:galileo_falling_bodies::obs_media)",
+      "content_hash": "cd84ea47fbdaa9db9f6deda2b03a982a10e4b8cd18ed1876e4ff95f7c40d3c52",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98",
-      "label": "__disjunction_result_8c8e3c98",
+      "id": "github:galileo_falling_bodies::__disjunction_result_3e43ce79",
+      "label": "__disjunction_result_3e43ce79",
       "metadata": {
-        "canonical_name": "explains(reg:galileo_falling_bodies::obs_media)",
+        "canonical_name": "explains(github:galileo_falling_bodies::obs_media)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "disjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "disjunction_result",
-        "owning_strategy_id": "lcs_02e50c572622fd83",
+        "owning_strategy_id": "lcs_e6f30f8a8d56a197",
         "owning_strategy_type": "abduction",
         "visibility": "formal_internal"
       },
@@ -311,19 +311,19 @@
       "type": "claim"
     },
     {
-      "content": "same_truth(reg:galileo_falling_bodies::__disjunction_result_8c8e3c98,reg:galileo_falling_bodies::obs_media)",
-      "content_hash": "8fd7d448851ee58c08d2b3190e15ad62009c75c46583d4f83e1b2856272efd78",
+      "content": "same_truth(github:galileo_falling_bodies::__disjunction_result_3e43ce79,github:galileo_falling_bodies::obs_media)",
+      "content_hash": "be232cf754e6d1bd0fa52c919677ed8171a97254040dd3b853a134bf1de884cc",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__equivalence_result_08feb30c",
-      "label": "__equivalence_result_08feb30c",
+      "id": "github:galileo_falling_bodies::__equivalence_result_62312146",
+      "label": "__equivalence_result_62312146",
       "metadata": {
-        "canonical_name": "same_truth(reg:galileo_falling_bodies::__disjunction_result_8c8e3c98,reg:galileo_falling_bodies::obs_media)",
+        "canonical_name": "same_truth(github:galileo_falling_bodies::__disjunction_result_3e43ce79,github:galileo_falling_bodies::obs_media)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "equivalence_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "equivalence_result",
-        "owning_strategy_id": "lcs_02e50c572622fd83",
+        "owning_strategy_id": "lcs_e6f30f8a8d56a197",
         "owning_strategy_type": "abduction",
         "visibility": "formal_internal"
       },
@@ -331,17 +331,17 @@
       "type": "claim"
     },
     {
-      "content": "alternative_explanation_for(reg:galileo_falling_bodies::obs_air)",
-      "content_hash": "73eb9cddff2fb7a47c4939c4c15caa5092cd6c04bd26470ae0daadba4e44ef52",
+      "content": "alternative_explanation_for(github:galileo_falling_bodies::obs_air)",
+      "content_hash": "cd4aac6fb5f3cefc26fc8745cac60e30f0138d5754a2c66afdf6a54c123f505d",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
-      "label": "__alternative_explanation_37705dcd",
+      "id": "github:galileo_falling_bodies::__alternative_explanation_f82cae96",
+      "label": "__alternative_explanation_f82cae96",
       "metadata": {
-        "canonical_name": "alternative_explanation_for(reg:galileo_falling_bodies::obs_air)",
+        "canonical_name": "alternative_explanation_for(github:galileo_falling_bodies::obs_air)",
         "generated": true,
         "generated_kind": "interface_claim",
         "interface_role": "alternative_explanation",
-        "owning_strategy_id": "lcs_af584cbae015425a",
+        "owning_strategy_id": "lcs_ae02e490b728edc9",
         "owning_strategy_type": "abduction",
         "visibility": "strategy_interface"
       },
@@ -349,19 +349,19 @@
       "type": "claim"
     },
     {
-      "content": "explains(reg:galileo_falling_bodies::obs_air)",
-      "content_hash": "3d7a5249c5e838c5a87d14b0237331d3674d39a94cb6885363dd2b60f9af16aa",
+      "content": "explains(github:galileo_falling_bodies::obs_air)",
+      "content_hash": "87901ada749c8082f73b6da18691ef67762c28bf2e3073543c1340ad578d3c57",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__disjunction_result_a8dae375",
-      "label": "__disjunction_result_a8dae375",
+      "id": "github:galileo_falling_bodies::__disjunction_result_7f41e312",
+      "label": "__disjunction_result_7f41e312",
       "metadata": {
-        "canonical_name": "explains(reg:galileo_falling_bodies::obs_air)",
+        "canonical_name": "explains(github:galileo_falling_bodies::obs_air)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "disjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "disjunction_result",
-        "owning_strategy_id": "lcs_af584cbae015425a",
+        "owning_strategy_id": "lcs_ae02e490b728edc9",
         "owning_strategy_type": "abduction",
         "visibility": "formal_internal"
       },
@@ -369,19 +369,19 @@
       "type": "claim"
     },
     {
-      "content": "same_truth(reg:galileo_falling_bodies::__disjunction_result_a8dae375,reg:galileo_falling_bodies::obs_air)",
-      "content_hash": "8a9a01739f914e75e15657e0308d45bf9c7a31de65b148d4107edf2672908c2e",
+      "content": "same_truth(github:galileo_falling_bodies::__disjunction_result_7f41e312,github:galileo_falling_bodies::obs_air)",
+      "content_hash": "439ae426f792cc36a27b22da59de49c91b83c3bc6c80d1dc0c58457c94e61517",
       "exported": false,
-      "id": "reg:galileo_falling_bodies::__equivalence_result_944c2cd1",
-      "label": "__equivalence_result_944c2cd1",
+      "id": "github:galileo_falling_bodies::__equivalence_result_90f872ca",
+      "label": "__equivalence_result_90f872ca",
       "metadata": {
-        "canonical_name": "same_truth(reg:galileo_falling_bodies::__disjunction_result_a8dae375,reg:galileo_falling_bodies::obs_air)",
+        "canonical_name": "same_truth(github:galileo_falling_bodies::__disjunction_result_7f41e312,github:galileo_falling_bodies::obs_air)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "equivalence_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "equivalence_result",
-        "owning_strategy_id": "lcs_af584cbae015425a",
+        "owning_strategy_id": "lcs_ae02e490b728edc9",
         "owning_strategy_type": "abduction",
         "visibility": "formal_internal"
       },
@@ -389,58 +389,58 @@
       "type": "claim"
     }
   ],
-  "namespace": "reg",
+  "namespace": "github",
   "operators": [
     {
-      "conclusion": "reg:galileo_falling_bodies::tied_ball_contradiction",
+      "conclusion": "github:galileo_falling_bodies::tied_ball_contradiction",
       "metadata": {
         "reason": "同一复合体 HL 不能同时比 H 慢（@hyp_drag）又比 H 快（@hyp_mass），这是逻辑矛盾。伽利略原文：'the heavier body moves with less speed than the lighter; an effect which is contrary to your supposition.'"
       },
       "operator": "contradiction",
-      "operator_id": "lco_a59c720f7a9b2034",
+      "operator_id": "lco_2151e94b7b8b1883",
       "scope": "local",
       "variables": [
-        "reg:galileo_falling_bodies::hyp_drag",
-        "reg:galileo_falling_bodies::hyp_mass"
+        "github:galileo_falling_bodies::hyp_drag",
+        "github:galileo_falling_bodies::hyp_mass"
       ]
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::_anon_000",
+      "conclusion": "github:galileo_falling_bodies::_anon_000",
       "metadata": {
         "reason": "第一组斜面预测（@pred_theta1）与观测（@obs_theta1）一致。"
       },
       "operator": "equivalence",
-      "operator_id": "lco_9fb2942c42a97634",
+      "operator_id": "lco_5a42514af321f8e4",
       "scope": "local",
       "variables": [
-        "reg:galileo_falling_bodies::pred_theta1",
-        "reg:galileo_falling_bodies::obs_theta1"
+        "github:galileo_falling_bodies::pred_theta1",
+        "github:galileo_falling_bodies::obs_theta1"
       ]
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::_anon_001",
+      "conclusion": "github:galileo_falling_bodies::_anon_001",
       "metadata": {
         "reason": "第二组斜面预测（@pred_theta2）与观测（@obs_theta2）一致。"
       },
       "operator": "equivalence",
-      "operator_id": "lco_8ce9e50babb7be5a",
+      "operator_id": "lco_382ec04149aa15ed",
       "scope": "local",
       "variables": [
-        "reg:galileo_falling_bodies::pred_theta2",
-        "reg:galileo_falling_bodies::obs_theta2"
+        "github:galileo_falling_bodies::pred_theta2",
+        "github:galileo_falling_bodies::obs_theta2"
       ]
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::final_contradiction",
+      "conclusion": "github:galileo_falling_bodies::final_contradiction",
       "metadata": {
         "reason": "'真空中重者更快'（@hyp_aristotle_vac）与'真空中等速下落'（@hyp_vacuum_equal）互斥，不能同时为真。"
       },
       "operator": "contradiction",
-      "operator_id": "lco_4bc9f0561783116c",
+      "operator_id": "lco_44f6d83efc84e3e7",
       "scope": "local",
       "variables": [
-        "reg:galileo_falling_bodies::hyp_aristotle_vac",
-        "reg:galileo_falling_bodies::hyp_vacuum_equal"
+        "github:galileo_falling_bodies::hyp_aristotle_vac",
+        "github:galileo_falling_bodies::hyp_vacuum_equal"
       ]
     }
   ],
@@ -448,23 +448,23 @@
   "scope": "local",
   "strategies": [
     {
-      "conclusion": "reg:galileo_falling_bodies::hyp_aristotle",
+      "conclusion": "github:galileo_falling_bodies::hyp_aristotle",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "reg:galileo_falling_bodies::__disjunction_result_b3584e0a",
+            "conclusion": "github:galileo_falling_bodies::__disjunction_result_bec07209",
             "operator": "disjunction",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_aristotle",
-              "reg:galileo_falling_bodies::__alternative_explanation_c8de506e"
+              "github:galileo_falling_bodies::hyp_aristotle",
+              "github:galileo_falling_bodies::__alternative_explanation_e703a823"
             ]
           },
           {
-            "conclusion": "reg:galileo_falling_bodies::__equivalence_result_b04d32f7",
+            "conclusion": "github:galileo_falling_bodies::__equivalence_result_96dfff7e",
             "operator": "equivalence",
             "variables": [
-              "reg:galileo_falling_bodies::__disjunction_result_b3584e0a",
-              "reg:galileo_falling_bodies::obs_daily"
+              "github:galileo_falling_bodies::__disjunction_result_bec07209",
+              "github:galileo_falling_bodies::obs_daily"
             ]
           }
         ]
@@ -474,31 +474,31 @@
         "generated_formal_expr": true,
         "interface_roles": {
           "alternative_explanation": [
-            "reg:galileo_falling_bodies::__alternative_explanation_c8de506e"
+            "github:galileo_falling_bodies::__alternative_explanation_e703a823"
           ],
           "observation": [
-            "reg:galileo_falling_bodies::obs_daily"
+            "github:galileo_falling_bodies::obs_daily"
           ]
         },
         "reason": "日常经验中（@obs_daily），重的石头比轻的羽毛下落更快，铁球比木球更快。由此推断普遍规律：物体下落速度与重量成正比（@hyp_aristotle）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::obs_daily",
-        "reg:galileo_falling_bodies::__alternative_explanation_c8de506e"
+        "github:galileo_falling_bodies::obs_daily",
+        "github:galileo_falling_bodies::__alternative_explanation_e703a823"
       ],
       "scope": "local",
-      "strategy_id": "lcs_c1c1dfd56bed3df7",
+      "strategy_id": "lcs_2f65b53394988713",
       "type": "abduction"
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::hyp_drag",
+      "conclusion": "github:galileo_falling_bodies::hyp_drag",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "reg:galileo_falling_bodies::hyp_drag",
+            "conclusion": "github:galileo_falling_bodies::hyp_drag",
             "operator": "implication",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_aristotle"
+              "github:galileo_falling_bodies::hyp_aristotle"
             ]
           }
         ]
@@ -509,21 +509,21 @@
         "reason": "假设亚里士多德定律（@hyp_aristotle）成立：重物下落更快。将重球 H（速度 8）与轻球 L（速度 4）绑在一起，由于 L 比 H 慢，L 会拖拽 H 使复合体减速，因此复合体 HL 的速度应小于 H 的速度 8（@hyp_drag）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_aristotle"
+        "github:galileo_falling_bodies::hyp_aristotle"
       ],
       "scope": "local",
-      "strategy_id": "lcs_72522aabbe482c37",
+      "strategy_id": "lcs_5cbdd84399e0b5ab",
       "type": "deduction"
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::hyp_mass",
+      "conclusion": "github:galileo_falling_bodies::hyp_mass",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "reg:galileo_falling_bodies::hyp_mass",
+            "conclusion": "github:galileo_falling_bodies::hyp_mass",
             "operator": "implication",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_aristotle"
+              "github:galileo_falling_bodies::hyp_aristotle"
             ]
           }
         ]
@@ -534,45 +534,45 @@
         "reason": "假设亚里士多德定律（@hyp_aristotle）成立：速度与重量成正比。复合体 HL 的总重量 = H + L > H，按该定律，HL 的速度应大于 H 的速度 8（@hyp_mass）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_aristotle"
+        "github:galileo_falling_bodies::hyp_aristotle"
       ],
       "scope": "local",
-      "strategy_id": "lcs_3eb8a1fa36054f49",
+      "strategy_id": "lcs_d38745756a42ed57",
       "type": "deduction"
     },
     {
       "background": [
-        "reg:galileo_falling_bodies::vacuum"
+        "github:galileo_falling_bodies::vacuum"
       ],
-      "conclusion": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "conclusion": "github:galileo_falling_bodies::hyp_aristotle_vac",
       "metadata": {
         "reason": "若亚里士多德定律（@hyp_aristotle）是关于下落速度的普遍规律，将其应用到真空环境（@vacuum）也应成立：在真空中重的物体仍比轻的下落更快（@hyp_aristotle_vac）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_aristotle"
+        "github:galileo_falling_bodies::hyp_aristotle"
       ],
       "scope": "local",
-      "strategy_id": "lcs_76dcc92f89b28671",
+      "strategy_id": "lcs_6d951a76696d10ca",
       "type": "noisy_and"
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "conclusion": "github:galileo_falling_bodies::hyp_air_resistance",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98",
+            "conclusion": "github:galileo_falling_bodies::__disjunction_result_3e43ce79",
             "operator": "disjunction",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_air_resistance",
-              "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5"
+              "github:galileo_falling_bodies::hyp_air_resistance",
+              "github:galileo_falling_bodies::__alternative_explanation_af3a0d09"
             ]
           },
           {
-            "conclusion": "reg:galileo_falling_bodies::__equivalence_result_08feb30c",
+            "conclusion": "github:galileo_falling_bodies::__equivalence_result_62312146",
             "operator": "equivalence",
             "variables": [
-              "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98",
-              "reg:galileo_falling_bodies::obs_media"
+              "github:galileo_falling_bodies::__disjunction_result_3e43ce79",
+              "github:galileo_falling_bodies::obs_media"
             ]
           }
         ]
@@ -582,39 +582,39 @@
         "generated_formal_expr": true,
         "interface_roles": {
           "alternative_explanation": [
-            "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5"
+            "github:galileo_falling_bodies::__alternative_explanation_af3a0d09"
           ],
           "observation": [
-            "reg:galileo_falling_bodies::obs_media"
+            "github:galileo_falling_bodies::obs_media"
           ]
         }
       },
       "premises": [
-        "reg:galileo_falling_bodies::obs_media",
-        "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5"
+        "github:galileo_falling_bodies::obs_media",
+        "github:galileo_falling_bodies::__alternative_explanation_af3a0d09"
       ],
       "scope": "local",
-      "strategy_id": "lcs_02e50c572622fd83",
+      "strategy_id": "lcs_e6f30f8a8d56a197",
       "type": "abduction"
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "conclusion": "github:galileo_falling_bodies::hyp_air_resistance",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "reg:galileo_falling_bodies::__disjunction_result_a8dae375",
+            "conclusion": "github:galileo_falling_bodies::__disjunction_result_7f41e312",
             "operator": "disjunction",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_air_resistance",
-              "reg:galileo_falling_bodies::__alternative_explanation_37705dcd"
+              "github:galileo_falling_bodies::hyp_air_resistance",
+              "github:galileo_falling_bodies::__alternative_explanation_f82cae96"
             ]
           },
           {
-            "conclusion": "reg:galileo_falling_bodies::__equivalence_result_944c2cd1",
+            "conclusion": "github:galileo_falling_bodies::__equivalence_result_90f872ca",
             "operator": "equivalence",
             "variables": [
-              "reg:galileo_falling_bodies::__disjunction_result_a8dae375",
-              "reg:galileo_falling_bodies::obs_air"
+              "github:galileo_falling_bodies::__disjunction_result_7f41e312",
+              "github:galileo_falling_bodies::obs_air"
             ]
           }
         ]
@@ -624,65 +624,65 @@
         "generated_formal_expr": true,
         "interface_roles": {
           "alternative_explanation": [
-            "reg:galileo_falling_bodies::__alternative_explanation_37705dcd"
+            "github:galileo_falling_bodies::__alternative_explanation_f82cae96"
           ],
           "observation": [
-            "reg:galileo_falling_bodies::obs_air"
+            "github:galileo_falling_bodies::obs_air"
           ]
         }
       },
       "premises": [
-        "reg:galileo_falling_bodies::obs_air",
-        "reg:galileo_falling_bodies::__alternative_explanation_37705dcd"
+        "github:galileo_falling_bodies::obs_air",
+        "github:galileo_falling_bodies::__alternative_explanation_f82cae96"
       ],
       "scope": "local",
-      "strategy_id": "lcs_af584cbae015425a",
+      "strategy_id": "lcs_ae02e490b728edc9",
       "type": "abduction"
     },
     {
-      "conclusion": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "conclusion": "github:galileo_falling_bodies::hyp_air_resistance",
       "metadata": {
         "reason": "在不同介质中（@obs_media），介质越稠密速度差异越大、越稀薄差异越小；在空气中（@obs_air），重材料球从 100 腕尺落下速度几乎相同。伽利略由此推断：速度差异完全由介质阻力造成——阻力是差异的唯一原因（@hyp_air_resistance）。此推理为溯因推断：不仅编码了'密度越低差异越小'的相关性，还主张因果机制——阻力决定差异。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::obs_media",
-        "reg:galileo_falling_bodies::obs_air"
+        "github:galileo_falling_bodies::obs_media",
+        "github:galileo_falling_bodies::obs_air"
       ],
       "scope": "local",
-      "strategy_id": "lcs_c79ac005be0d156c",
+      "strategy_id": "lcs_278c56e274b77513",
       "sub_strategies": [
-        "lcs_02e50c572622fd83",
-        "lcs_af584cbae015425a"
+        "lcs_e6f30f8a8d56a197",
+        "lcs_ae02e490b728edc9"
       ],
       "type": "induction"
     },
     {
       "background": [
-        "reg:galileo_falling_bodies::vacuum"
+        "github:galileo_falling_bodies::vacuum"
       ],
-      "conclusion": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "conclusion": "github:galileo_falling_bodies::hyp_vacuum_equal",
       "metadata": {
         "reason": "若阻力是速度差异的唯一原因（@hyp_air_resistance），且真空中阻力为零（@vacuum），则真空中速度差异为零，即不同重量物体等速下落（@hyp_vacuum_equal）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_air_resistance"
+        "github:galileo_falling_bodies::hyp_air_resistance"
       ],
       "scope": "local",
-      "strategy_id": "lcs_421f8abcb89c6967",
+      "strategy_id": "lcs_6eb3f45e59a74e70",
       "type": "noisy_and"
     },
     {
       "background": [
-        "reg:galileo_falling_bodies::inclined_plane"
+        "github:galileo_falling_bodies::inclined_plane"
       ],
-      "conclusion": "reg:galileo_falling_bodies::pred_theta1",
+      "conclusion": "github:galileo_falling_bodies::pred_theta1",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "reg:galileo_falling_bodies::pred_theta1",
+            "conclusion": "github:galileo_falling_bodies::pred_theta1",
             "operator": "implication",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_vacuum_equal"
+              "github:galileo_falling_bodies::hyp_vacuum_equal"
             ]
           }
         ]
@@ -693,24 +693,24 @@
         "reason": "若真空中不同重量物体等速下落（@hyp_vacuum_equal），在近似无摩擦的斜面上（@inclined_plane），不同重量的球也应呈等加速（@pred_theta1）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_vacuum_equal"
+        "github:galileo_falling_bodies::hyp_vacuum_equal"
       ],
       "scope": "local",
-      "strategy_id": "lcs_03e128bd69168aab",
+      "strategy_id": "lcs_a719a469df62cd2d",
       "type": "deduction"
     },
     {
       "background": [
-        "reg:galileo_falling_bodies::inclined_plane"
+        "github:galileo_falling_bodies::inclined_plane"
       ],
-      "conclusion": "reg:galileo_falling_bodies::pred_theta2",
+      "conclusion": "github:galileo_falling_bodies::pred_theta2",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "reg:galileo_falling_bodies::pred_theta2",
+            "conclusion": "github:galileo_falling_bodies::pred_theta2",
             "operator": "implication",
             "variables": [
-              "reg:galileo_falling_bodies::hyp_vacuum_equal"
+              "github:galileo_falling_bodies::hyp_vacuum_equal"
             ]
           }
         ]
@@ -721,10 +721,10 @@
         "reason": "若真空中不同重量物体等速下落（@hyp_vacuum_equal），在另一倾角的斜面上（@inclined_plane），同样应呈等加速（@pred_theta2）。"
       },
       "premises": [
-        "reg:galileo_falling_bodies::hyp_vacuum_equal"
+        "github:galileo_falling_bodies::hyp_vacuum_equal"
       ],
       "scope": "local",
-      "strategy_id": "lcs_37828a2f760b3242",
+      "strategy_id": "lcs_148d62c62ce1f351",
       "type": "deduction"
     }
   ]

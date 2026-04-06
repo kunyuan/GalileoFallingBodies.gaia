@@ -2,213 +2,213 @@
   "beliefs": [
     {
       "belief": 0.23748509343776472,
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
-      "label": "__alternative_explanation_37705dcd"
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_af3a0d09",
+      "label": "__alternative_explanation_af3a0d09"
     },
     {
-      "belief": 0.9980296028647213,
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
-      "label": "__alternative_explanation_c8de506e"
+      "belief": 0.9980296028647212,
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_e703a823",
+      "label": "__alternative_explanation_e703a823"
     },
     {
       "belief": 0.23748509343776472,
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
-      "label": "__alternative_explanation_fd4bc5a5"
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_f82cae96",
+      "label": "__alternative_explanation_f82cae96"
     },
     {
       "belief": 0.9999789659610558,
-      "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98",
-      "label": "__disjunction_result_8c8e3c98"
+      "knowledge_id": "github:galileo_falling_bodies::__disjunction_result_3e43ce79",
+      "label": "__disjunction_result_3e43ce79"
     },
     {
       "belief": 0.9999789659610558,
-      "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_a8dae375",
-      "label": "__disjunction_result_a8dae375"
+      "knowledge_id": "github:galileo_falling_bodies::__disjunction_result_7f41e312",
+      "label": "__disjunction_result_7f41e312"
     },
     {
       "belief": 0.9998304540046151,
-      "knowledge_id": "reg:galileo_falling_bodies::__disjunction_result_b3584e0a",
-      "label": "__disjunction_result_b3584e0a"
+      "knowledge_id": "github:galileo_falling_bodies::__disjunction_result_bec07209",
+      "label": "__disjunction_result_bec07209"
     },
     {
       "belief": 0.9998886035821386,
-      "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_08feb30c",
-      "label": "__equivalence_result_08feb30c"
+      "knowledge_id": "github:galileo_falling_bodies::__equivalence_result_62312146",
+      "label": "__equivalence_result_62312146"
     },
     {
       "belief": 0.9998886035821386,
-      "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_944c2cd1",
-      "label": "__equivalence_result_944c2cd1"
+      "knowledge_id": "github:galileo_falling_bodies::__equivalence_result_90f872ca",
+      "label": "__equivalence_result_90f872ca"
     },
     {
       "belief": 0.9998863191845994,
-      "knowledge_id": "reg:galileo_falling_bodies::__equivalence_result_b04d32f7",
-      "label": "__equivalence_result_b04d32f7"
+      "knowledge_id": "github:galileo_falling_bodies::__equivalence_result_96dfff7e",
+      "label": "__equivalence_result_96dfff7e"
     },
     {
       "belief": 0.9997933352788443,
-      "knowledge_id": "reg:galileo_falling_bodies::_anon_000",
+      "knowledge_id": "github:galileo_falling_bodies::_anon_000",
       "label": null
     },
     {
       "belief": 0.9997933352788443,
-      "knowledge_id": "reg:galileo_falling_bodies::_anon_001",
+      "knowledge_id": "github:galileo_falling_bodies::_anon_001",
       "label": null
     },
     {
       "belief": 0.9999952668094918,
-      "knowledge_id": "reg:galileo_falling_bodies::final_contradiction",
+      "knowledge_id": "github:galileo_falling_bodies::final_contradiction",
       "label": "final_contradiction"
     },
     {
       "belief": 0.9531171060169762,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_air_resistance",
       "label": "hyp_air_resistance"
     },
     {
-      "belief": 0.0005045408590857539,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
+      "belief": 0.0005045408590857538,
+      "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle",
       "label": "hyp_aristotle"
     },
     {
       "belief": 0.00044484035720619914,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle_vac",
       "label": "hyp_aristotle_vac"
     },
     {
       "belief": 0.33398783183752206,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_drag",
       "label": "hyp_drag"
     },
     {
       "belief": 0.33398783183752206,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_mass",
       "label": "hyp_mass"
     },
     {
       "belief": 0.894592750289505,
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_vacuum_equal",
       "label": "hyp_vacuum_equal"
     },
     {
       "belief": 0.9998678350196281,
-      "knowledge_id": "reg:galileo_falling_bodies::obs_air",
+      "knowledge_id": "github:galileo_falling_bodies::obs_air",
       "label": "obs_air"
     },
     {
       "belief": 0.9996110975484434,
-      "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
+      "knowledge_id": "github:galileo_falling_bodies::obs_daily",
       "label": "obs_daily"
     },
     {
       "belief": 0.9998678350196281,
-      "knowledge_id": "reg:galileo_falling_bodies::obs_media",
+      "knowledge_id": "github:galileo_falling_bodies::obs_media",
       "label": "obs_media"
     },
     {
       "belief": 0.9891608793115606,
-      "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
+      "knowledge_id": "github:galileo_falling_bodies::obs_theta1",
       "label": "obs_theta1"
     },
     {
       "belief": 0.9891608793115606,
-      "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
+      "knowledge_id": "github:galileo_falling_bodies::obs_theta2",
       "label": "obs_theta2"
     },
     {
       "belief": 0.989189534609568,
-      "knowledge_id": "reg:galileo_falling_bodies::pred_theta1",
+      "knowledge_id": "github:galileo_falling_bodies::pred_theta1",
       "label": "pred_theta1"
     },
     {
       "belief": 0.989189534609568,
-      "knowledge_id": "reg:galileo_falling_bodies::pred_theta2",
+      "knowledge_id": "github:galileo_falling_bodies::pred_theta2",
       "label": "pred_theta2"
     },
     {
       "belief": 0.9995396194130847,
-      "knowledge_id": "reg:galileo_falling_bodies::tied_ball_contradiction",
+      "knowledge_id": "github:galileo_falling_bodies::tied_ball_contradiction",
       "label": "tied_ball_contradiction"
     }
   ],
   "diagnostics": {
     "belief_history": {
-      "reg:galileo_falling_bodies::__alternative_explanation_37705dcd": [
+      "github:galileo_falling_bodies::__alternative_explanation_af3a0d09": [
         0.23748509343776472
       ],
-      "reg:galileo_falling_bodies::__alternative_explanation_c8de506e": [
-        0.9980296028647213
+      "github:galileo_falling_bodies::__alternative_explanation_e703a823": [
+        0.9980296028647212
       ],
-      "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5": [
+      "github:galileo_falling_bodies::__alternative_explanation_f82cae96": [
         0.23748509343776472
       ],
-      "reg:galileo_falling_bodies::__disjunction_result_8c8e3c98": [
+      "github:galileo_falling_bodies::__disjunction_result_3e43ce79": [
         0.9999789659610558
       ],
-      "reg:galileo_falling_bodies::__disjunction_result_a8dae375": [
+      "github:galileo_falling_bodies::__disjunction_result_7f41e312": [
         0.9999789659610558
       ],
-      "reg:galileo_falling_bodies::__disjunction_result_b3584e0a": [
+      "github:galileo_falling_bodies::__disjunction_result_bec07209": [
         0.9998304540046151
       ],
-      "reg:galileo_falling_bodies::__equivalence_result_08feb30c": [
+      "github:galileo_falling_bodies::__equivalence_result_62312146": [
         0.9998886035821386
       ],
-      "reg:galileo_falling_bodies::__equivalence_result_944c2cd1": [
+      "github:galileo_falling_bodies::__equivalence_result_90f872ca": [
         0.9998886035821386
       ],
-      "reg:galileo_falling_bodies::__equivalence_result_b04d32f7": [
+      "github:galileo_falling_bodies::__equivalence_result_96dfff7e": [
         0.9998863191845994
       ],
-      "reg:galileo_falling_bodies::_anon_000": [
+      "github:galileo_falling_bodies::_anon_000": [
         0.9997933352788443
       ],
-      "reg:galileo_falling_bodies::_anon_001": [
+      "github:galileo_falling_bodies::_anon_001": [
         0.9997933352788443
       ],
-      "reg:galileo_falling_bodies::final_contradiction": [
+      "github:galileo_falling_bodies::final_contradiction": [
         0.9999952668094918
       ],
-      "reg:galileo_falling_bodies::hyp_air_resistance": [
+      "github:galileo_falling_bodies::hyp_air_resistance": [
         0.9531171060169762
       ],
-      "reg:galileo_falling_bodies::hyp_aristotle": [
-        0.0005045408590857539
+      "github:galileo_falling_bodies::hyp_aristotle": [
+        0.0005045408590857538
       ],
-      "reg:galileo_falling_bodies::hyp_aristotle_vac": [
+      "github:galileo_falling_bodies::hyp_aristotle_vac": [
         0.00044484035720619914
       ],
-      "reg:galileo_falling_bodies::hyp_drag": [
+      "github:galileo_falling_bodies::hyp_drag": [
         0.33398783183752206
       ],
-      "reg:galileo_falling_bodies::hyp_mass": [
+      "github:galileo_falling_bodies::hyp_mass": [
         0.33398783183752206
       ],
-      "reg:galileo_falling_bodies::hyp_vacuum_equal": [
+      "github:galileo_falling_bodies::hyp_vacuum_equal": [
         0.894592750289505
       ],
-      "reg:galileo_falling_bodies::obs_air": [
+      "github:galileo_falling_bodies::obs_air": [
         0.9998678350196281
       ],
-      "reg:galileo_falling_bodies::obs_daily": [
+      "github:galileo_falling_bodies::obs_daily": [
         0.9996110975484434
       ],
-      "reg:galileo_falling_bodies::obs_media": [
+      "github:galileo_falling_bodies::obs_media": [
         0.9998678350196281
       ],
-      "reg:galileo_falling_bodies::obs_theta1": [
+      "github:galileo_falling_bodies::obs_theta1": [
         0.9891608793115606
       ],
-      "reg:galileo_falling_bodies::obs_theta2": [
+      "github:galileo_falling_bodies::obs_theta2": [
         0.9891608793115606
       ],
-      "reg:galileo_falling_bodies::pred_theta1": [
+      "github:galileo_falling_bodies::pred_theta1": [
         0.989189534609568
       ],
-      "reg:galileo_falling_bodies::pred_theta2": [
+      "github:galileo_falling_bodies::pred_theta2": [
         0.989189534609568
       ],
-      "reg:galileo_falling_bodies::tied_ball_contradiction": [
+      "github:galileo_falling_bodies::tied_ball_contradiction": [
         0.9995396194130847
       ]
     },
@@ -218,5 +218,5 @@
     "max_change_at_stop": 0.0,
     "treewidth": 2
   },
-  "ir_hash": "sha256:397c81ece01313ccd2e47d960a03d93ac8c9e5f8d9962bed60e6b5fb9e917352"
+  "ir_hash": "sha256:236f07eca3429d93c11df0b4ebdca0e49c113c3826fbbd1ccd9a3297d3769833"
 }

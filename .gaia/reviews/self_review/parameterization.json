@@ -1,11 +1,11 @@
 {
-  "ir_hash": "sha256:397c81ece01313ccd2e47d960a03d93ac8c9e5f8d9962bed60e6b5fb9e917352",
+  "ir_hash": "sha256:236f07eca3429d93c11df0b4ebdca0e49c113c3826fbbd1ccd9a3297d3769833",
   "objects": [
     {
       "judgment": null,
       "justification": "Common everyday experience, highly reliable.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
+      "knowledge_id": "github:galileo_falling_bodies::obs_daily",
       "label": "obs_daily",
       "metadata": null,
       "prior": 0.9
@@ -14,7 +14,7 @@
       "judgment": null,
       "justification": "Well-documented experimental observation across media.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_media",
+      "knowledge_id": "github:galileo_falling_bodies::obs_media",
       "label": "obs_media",
       "metadata": null,
       "prior": 0.9
@@ -23,7 +23,7 @@
       "judgment": null,
       "justification": "Careful experiment with heavy materials, small residual.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_air",
+      "knowledge_id": "github:galileo_falling_bodies::obs_air",
       "label": "obs_air",
       "metadata": null,
       "prior": 0.9
@@ -32,7 +32,7 @@
       "judgment": null,
       "justification": "Controlled inclined plane experiment.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
+      "knowledge_id": "github:galileo_falling_bodies::obs_theta1",
       "label": "obs_theta1",
       "metadata": null,
       "prior": 0.9
@@ -41,7 +41,7 @@
       "judgment": null,
       "justification": "Repeated experiment at different angle, 100 repetitions.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
+      "knowledge_id": "github:galileo_falling_bodies::obs_theta2",
       "label": "obs_theta2",
       "metadata": null,
       "prior": 0.9
@@ -50,7 +50,7 @@
       "judgment": null,
       "justification": "Central hypothesis under test; MaxEnt prior.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle",
       "label": "hyp_aristotle",
       "metadata": null,
       "prior": 0.5
@@ -59,7 +59,7 @@
       "judgment": null,
       "justification": "Central competing hypothesis; MaxEnt prior.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_air_resistance",
       "label": "hyp_air_resistance",
       "metadata": null,
       "prior": 0.5
@@ -68,7 +68,7 @@
       "judgment": null,
       "justification": "Key conclusion under test; belief from BP.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_vacuum_equal",
       "label": "hyp_vacuum_equal",
       "metadata": null,
       "prior": 0.5
@@ -77,7 +77,7 @@
       "judgment": null,
       "justification": "Derived from Aristotle; deduction determines belief.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_drag",
       "label": "hyp_drag",
       "metadata": null,
       "prior": 0.5
@@ -86,7 +86,7 @@
       "judgment": null,
       "justification": "Derived from Aristotle; deduction determines belief.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_mass",
       "label": "hyp_mass",
       "metadata": null,
       "prior": 0.5
@@ -95,7 +95,7 @@
       "judgment": null,
       "justification": "Derived; deduction from Aristotle + vacuum.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle_vac",
       "label": "hyp_aristotle_vac",
       "metadata": null,
       "prior": 0.5
@@ -104,7 +104,7 @@
       "judgment": null,
       "justification": "Derived; deduction from vacuum equal speed.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::pred_theta1",
+      "knowledge_id": "github:galileo_falling_bodies::pred_theta1",
       "label": "pred_theta1",
       "metadata": null,
       "prior": 0.5
@@ -113,7 +113,7 @@
       "judgment": null,
       "justification": "Derived; deduction from vacuum equal speed.",
       "kind": "claim",
-      "knowledge_id": "reg:galileo_falling_bodies::pred_theta2",
+      "knowledge_id": "github:galileo_falling_bodies::pred_theta2",
       "label": "pred_theta2",
       "metadata": null,
       "prior": 0.5
@@ -127,7 +127,7 @@
       "kind": "strategy",
       "label": null,
       "metadata": null,
-      "strategy_id": "lcs_76dcc92f89b28671",
+      "strategy_id": "lcs_6d951a76696d10ca",
       "type": "noisy_and"
     },
     {
@@ -139,140 +139,140 @@
       "kind": "strategy",
       "label": null,
       "metadata": null,
-      "strategy_id": "lcs_421f8abcb89c6967",
+      "strategy_id": "lcs_6eb3f45e59a74e70",
       "type": "noisy_and"
     },
     {
       "judgment": null,
       "justification": "Daily observation could be explained by air resistance alone, not by Aristotle's law. Moderate alternative plausibility.",
       "kind": "generated_claim",
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_e703a823",
       "metadata": null,
       "occurrence": 0,
       "prior": 0.4,
       "role": "alternative_explanation",
-      "strategy_id": "lcs_c1c1dfd56bed3df7",
+      "strategy_id": "lcs_2f65b53394988713",
       "strategy_label": null
     },
     {
       "judgment": null,
       "justification": "Media density pattern is hard to explain without air resistance as the causal mechanism.",
       "kind": "generated_claim",
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_af3a0d09",
       "metadata": null,
       "occurrence": 0,
       "prior": 0.2,
       "role": "alternative_explanation",
-      "strategy_id": "lcs_02e50c572622fd83",
+      "strategy_id": "lcs_e6f30f8a8d56a197",
       "strategy_label": null
     },
     {
       "judgment": null,
       "justification": "Near-equal fall times for heavy materials in air is hard to explain without air resistance hypothesis.",
       "kind": "generated_claim",
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_f82cae96",
       "metadata": null,
       "occurrence": 0,
       "prior": 0.2,
       "role": "alternative_explanation",
-      "strategy_id": "lcs_af584cbae015425a",
+      "strategy_id": "lcs_ae02e490b728edc9",
       "strategy_label": null
     }
   ],
   "priors": [
     {
-      "created_at": "2026-04-06T07:59:46.982094Z",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_daily",
+      "created_at": "2026-04-06T08:04:15.052220Z",
+      "knowledge_id": "github:galileo_falling_bodies::obs_daily",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T07:59:46.982109Z",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_media",
+      "created_at": "2026-04-06T08:04:15.052236Z",
+      "knowledge_id": "github:galileo_falling_bodies::obs_media",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T07:59:46.982116Z",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_air",
+      "created_at": "2026-04-06T08:04:15.052243Z",
+      "knowledge_id": "github:galileo_falling_bodies::obs_air",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T07:59:46.982121Z",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_theta1",
+      "created_at": "2026-04-06T08:04:15.052248Z",
+      "knowledge_id": "github:galileo_falling_bodies::obs_theta1",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T07:59:46.982125Z",
-      "knowledge_id": "reg:galileo_falling_bodies::obs_theta2",
+      "created_at": "2026-04-06T08:04:15.052252Z",
+      "knowledge_id": "github:galileo_falling_bodies::obs_theta2",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T07:59:46.982130Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle",
+      "created_at": "2026-04-06T08:04:15.052257Z",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982142Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_air_resistance",
+      "created_at": "2026-04-06T08:04:15.052261Z",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_air_resistance",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982146Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_vacuum_equal",
+      "created_at": "2026-04-06T08:04:15.052265Z",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_vacuum_equal",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982150Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_drag",
+      "created_at": "2026-04-06T08:04:15.052269Z",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_drag",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982155Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_mass",
+      "created_at": "2026-04-06T08:04:15.052274Z",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_mass",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982159Z",
-      "knowledge_id": "reg:galileo_falling_bodies::hyp_aristotle_vac",
+      "created_at": "2026-04-06T08:04:15.052278Z",
+      "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle_vac",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982162Z",
-      "knowledge_id": "reg:galileo_falling_bodies::pred_theta1",
+      "created_at": "2026-04-06T08:04:15.052282Z",
+      "knowledge_id": "github:galileo_falling_bodies::pred_theta1",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982174Z",
-      "knowledge_id": "reg:galileo_falling_bodies::pred_theta2",
+      "created_at": "2026-04-06T08:04:15.052286Z",
+      "knowledge_id": "github:galileo_falling_bodies::pred_theta2",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T07:59:46.982217Z",
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_c8de506e",
+      "created_at": "2026-04-06T08:04:15.052319Z",
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_e703a823",
       "source_id": "self_review",
       "value": 0.4
     },
     {
-      "created_at": "2026-04-06T07:59:46.982226Z",
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_fd4bc5a5",
+      "created_at": "2026-04-06T08:04:15.052327Z",
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_af3a0d09",
       "source_id": "self_review",
       "value": 0.2
     },
     {
-      "created_at": "2026-04-06T07:59:46.982232Z",
-      "knowledge_id": "reg:galileo_falling_bodies::__alternative_explanation_37705dcd",
+      "created_at": "2026-04-06T08:04:15.052333Z",
+      "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_f82cae96",
       "source_id": "self_review",
       "value": 0.2
     }
@@ -282,7 +282,7 @@
     "strategy": "source"
   },
   "source": {
-    "created_at": "2026-04-06T07:59:46.981719Z",
+    "created_at": "2026-04-06T08:04:15.050962Z",
     "model": "agent-authored",
     "source_id": "self_review"
   },
@@ -291,17 +291,17 @@
       "conditional_probabilities": [
         0.95
       ],
-      "created_at": "2026-04-06T07:59:46.982189Z",
+      "created_at": "2026-04-06T08:04:15.052300Z",
       "source_id": "self_review",
-      "strategy_id": "lcs_76dcc92f89b28671"
+      "strategy_id": "lcs_6d951a76696d10ca"
     },
     {
       "conditional_probabilities": [
         0.95
       ],
-      "created_at": "2026-04-06T07:59:46.982199Z",
+      "created_at": "2026-04-06T08:04:15.052310Z",
       "source_id": "self_review",
-      "strategy_id": "lcs_421f8abcb89c6967"
+      "strategy_id": "lcs_6eb3f45e59a74e70"
     }
   ]
 }
