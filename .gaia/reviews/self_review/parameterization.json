@@ -181,97 +181,97 @@
   ],
   "priors": [
     {
-      "created_at": "2026-04-06T08:04:15.052220Z",
+      "created_at": "2026-04-06T08:07:36.755620Z",
       "knowledge_id": "github:galileo_falling_bodies::obs_daily",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T08:04:15.052236Z",
+      "created_at": "2026-04-06T08:07:36.755635Z",
       "knowledge_id": "github:galileo_falling_bodies::obs_media",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T08:04:15.052243Z",
+      "created_at": "2026-04-06T08:07:36.755642Z",
       "knowledge_id": "github:galileo_falling_bodies::obs_air",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T08:04:15.052248Z",
+      "created_at": "2026-04-06T08:07:36.755647Z",
       "knowledge_id": "github:galileo_falling_bodies::obs_theta1",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T08:04:15.052252Z",
+      "created_at": "2026-04-06T08:07:36.755652Z",
       "knowledge_id": "github:galileo_falling_bodies::obs_theta2",
       "source_id": "self_review",
       "value": 0.9
     },
     {
-      "created_at": "2026-04-06T08:04:15.052257Z",
+      "created_at": "2026-04-06T08:07:36.755657Z",
       "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052261Z",
+      "created_at": "2026-04-06T08:07:36.755668Z",
       "knowledge_id": "github:galileo_falling_bodies::hyp_air_resistance",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052265Z",
+      "created_at": "2026-04-06T08:07:36.755672Z",
       "knowledge_id": "github:galileo_falling_bodies::hyp_vacuum_equal",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052269Z",
+      "created_at": "2026-04-06T08:07:36.755683Z",
       "knowledge_id": "github:galileo_falling_bodies::hyp_drag",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052274Z",
+      "created_at": "2026-04-06T08:07:36.755688Z",
       "knowledge_id": "github:galileo_falling_bodies::hyp_mass",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052278Z",
+      "created_at": "2026-04-06T08:07:36.755698Z",
       "knowledge_id": "github:galileo_falling_bodies::hyp_aristotle_vac",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052282Z",
+      "created_at": "2026-04-06T08:07:36.755709Z",
       "knowledge_id": "github:galileo_falling_bodies::pred_theta1",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052286Z",
+      "created_at": "2026-04-06T08:07:36.755714Z",
       "knowledge_id": "github:galileo_falling_bodies::pred_theta2",
       "source_id": "self_review",
       "value": 0.5
     },
     {
-      "created_at": "2026-04-06T08:04:15.052319Z",
+      "created_at": "2026-04-06T08:07:36.755748Z",
       "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_e703a823",
       "source_id": "self_review",
       "value": 0.4
     },
     {
-      "created_at": "2026-04-06T08:04:15.052327Z",
+      "created_at": "2026-04-06T08:07:36.755762Z",
       "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_af3a0d09",
       "source_id": "self_review",
       "value": 0.2
     },
     {
-      "created_at": "2026-04-06T08:04:15.052333Z",
+      "created_at": "2026-04-06T08:07:36.755769Z",
       "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_f82cae96",
       "source_id": "self_review",
       "value": 0.2
@@ -282,7 +282,7 @@
     "strategy": "source"
   },
   "source": {
-    "created_at": "2026-04-06T08:04:15.050962Z",
+    "created_at": "2026-04-06T08:07:36.755236Z",
     "model": "agent-authored",
     "source_id": "self_review"
   },
@@ -291,7 +291,7 @@
       "conditional_probabilities": [
         0.95
       ],
-      "created_at": "2026-04-06T08:04:15.052300Z",
+      "created_at": "2026-04-06T08:07:36.755728Z",
       "source_id": "self_review",
       "strategy_id": "lcs_6d951a76696d10ca"
     },
@@ -299,7 +299,7 @@
       "conditional_probabilities": [
         0.95
       ],
-      "created_at": "2026-04-06T08:04:15.052310Z",
+      "created_at": "2026-04-06T08:07:36.755738Z",
       "source_id": "self_review",
       "strategy_id": "lcs_6eb3f45e59a74e70"
     }

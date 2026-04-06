@@ -6,8 +6,8 @@ Galileo's falling bodies argument — Gaia knowledge package
 
 ```mermaid
 graph LR
-    hyp_air_resistance["Air Resistance Hypothesis"]:::derived
-    hyp_vacuum_equal["Vacuum Equal Speed"]:::derived
+    hyp_air_resistance["Air Resistance Hypothesis (0.95)"]:::derived
+    hyp_vacuum_equal["Vacuum Equal Speed (0.89)"]:::derived
     hyp_air_resistance --> hyp_vacuum_equal
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
@@ -25,7 +25,7 @@ graph LR
 
 #### Air Resistance Hypothesis ★
 
-📌 `hyp_air_resistance`
+📌 `hyp_air_resistance`   |   Prior: 0.50   |   Belief: **0.95**
 
 > 不同重量物体的下落速度差异完全由介质阻力造成——阻力是速度差异的唯一原因。阻力越大，差异越大；阻力越小，差异越小。
 
@@ -40,7 +40,7 @@ graph LR
 
 #### Vacuum Equal Speed ★
 
-📌 `hyp_vacuum_equal`
+📌 `hyp_vacuum_equal`   |   Prior: 0.50   |   Belief: **0.89**
 
 > 在完全没有阻力的介质（真空）中，不同重量的物体以相同速率下落。
 
@@ -60,23 +60,21 @@ graph LR
 graph TD
     vacuum["vacuum"]:::setting
     inclined_plane["inclined_plane"]:::setting
-    obs_daily["Daily Observation"]:::premise
-    obs_media["Media Observation"]:::premise
-    obs_air["Air Experiment"]:::premise
-    obs_theta1["Inclined Plane θ₁"]:::premise
-    obs_theta2["Inclined Plane θ₂"]:::premise
-    hyp_aristotle["Aristotle's Law"]:::derived
-    hyp_air_resistance["Air Resistance Hypothesis"]:::derived
-    hyp_vacuum_equal["Vacuum Equal Speed"]:::derived
-    hyp_drag["Tied-Ball Drag Argument"]:::derived
-    hyp_mass["Tied-Ball Mass Argument"]:::derived
-    hyp_aristotle_vac["Aristotle in Vacuum"]:::derived
-    pred_theta1["Plane Prediction θ₁"]:::derived
-    pred_theta2["Plane Prediction θ₂"]:::derived
-    tied_ball_contradiction["tied_ball_contradiction"]:::derived
-    [""]:::derived
-    [""]:::derived
-    final_contradiction["final_contradiction"]:::derived
+    obs_daily["Daily Observation (1.00)"]:::premise
+    obs_media["Media Observation (1.00)"]:::premise
+    obs_air["Air Experiment (1.00)"]:::premise
+    obs_theta1["Inclined Plane θ₁ (0.99)"]:::premise
+    obs_theta2["Inclined Plane θ₂ (0.99)"]:::premise
+    hyp_aristotle["Aristotle's Law (0.00)"]:::derived
+    hyp_air_resistance["Air Resistance Hypothesis (0.95)"]:::derived
+    hyp_vacuum_equal["Vacuum Equal Speed (0.89)"]:::derived
+    hyp_drag["Tied-Ball Drag Argument (0.33)"]:::derived
+    hyp_mass["Tied-Ball Mass Argument (0.33)"]:::derived
+    hyp_aristotle_vac["Aristotle in Vacuum (0.00)"]:::derived
+    pred_theta1["Plane Prediction θ₁ (0.99)"]:::derived
+    pred_theta2["Plane Prediction θ₂ (0.99)"]:::derived
+    tied_ball_contradiction["tied_ball_contradiction (1.00)"]:::derived
+    final_contradiction["final_contradiction (1.00)"]:::derived
     strat_0(["abduction"]):::weak
     obs_daily --> strat_0
     strat_0 --> hyp_aristotle
@@ -119,11 +117,9 @@ graph TD
     oper_1{{"≡"}}
     pred_theta1 --- oper_1
     obs_theta1 --- oper_1
-    oper_1 --- 
     oper_2{{"≡"}}
     pred_theta2 --- oper_2
     obs_theta2 --- oper_2
-    oper_2 --- 
     oper_3{{"⊗"}}:::contra
     hyp_aristotle_vac --- oper_3
     hyp_vacuum_equal --- oper_3
@@ -168,7 +164,7 @@ graph TD
 
 #### Air Experiment
 
-📌 `obs_air`
+📌 `obs_air`   |   Prior: 0.90   |   Belief: **1.00**
 
 > 在空气中做精细实验：金球、铅球、铜球、斑岩球等重材料球从 100 腕尺高处落下，金球领先铜球不超过四指宽。
 
@@ -177,7 +173,7 @@ graph TD
 
 #### Daily Observation
 
-📌 `obs_daily`
+📌 `obs_daily`   |   Prior: 0.90   |   Belief: **1.00**
 
 > 日常经验中，较重的物体下落速度确实比较轻的物体快：石头比羽毛快，铁球比木球快。
 
@@ -186,7 +182,7 @@ graph TD
 
 #### Media Observation
 
-📌 `obs_media`
+📌 `obs_media`   |   Prior: 0.90   |   Belief: **1.00**
 
 > 在不同密度的介质中比较不同重量物体的下落：介质越稠密（如水银、水、油），轻重物体的速度差异越大；介质越稀薄（如空气），差异越小。在水银中，金是唯一能下沉的物质，其他金属和石头都浮在表面。
 
@@ -195,7 +191,7 @@ graph TD
 
 #### Inclined Plane θ₁
 
-📌 `obs_theta1`
+📌 `obs_theta1`   |   Prior: 0.90   |   Belief: **0.99**
 
 > 斜面实验第一组：在倾角 θ₁ 下，不同重量的光滑青铜球沿抛光沟槽滚下，所经距离之比等于时间之比的平方，与球的重量无关。
 
@@ -204,7 +200,7 @@ graph TD
 
 #### Inclined Plane θ₂
 
-📌 `obs_theta2`
+📌 `obs_theta2`   |   Prior: 0.90   |   Belief: **0.99**
 
 > 斜面实验第二组：在另一倾角 θ₂ 下重复实验，结果一致确认距离 ∝ 时间²，与重量无关。实验重复整整一百次，对所有倾角均成立。
 
@@ -213,7 +209,7 @@ graph TD
 
 #### Air Resistance Hypothesis ★
 
-📌 `hyp_air_resistance`
+📌 `hyp_air_resistance`   |   Prior: 0.50   |   Belief: **0.95**
 
 > 不同重量物体的下落速度差异完全由介质阻力造成——阻力是速度差异的唯一原因。阻力越大，差异越大；阻力越小，差异越小。
 
@@ -230,7 +226,7 @@ graph TD
 
 #### Aristotle's Law
 
-📌 `hyp_aristotle`
+📌 `hyp_aristotle`   |   Prior: 0.50   |   Belief: **0.00**
 
 > 物体的下落速度与其重量成正比：一个重量是另一个两倍的物体，通过同样距离所需时间为后者的一半。即重物比轻物下落更快。
 
@@ -247,7 +243,7 @@ graph TD
 
 #### Aristotle in Vacuum
 
-📌 `hyp_aristotle_vac`
+📌 `hyp_aristotle_vac`   |   Prior: 0.50   |   Belief: **0.00**
 
 > 若物体下落速度与重量成正比是普遍规律，则在真空中也应如此：较重物体在真空中仍比较轻物体下落更快。
 
@@ -264,7 +260,7 @@ graph TD
 
 #### Tied-Ball Drag Argument
 
-📌 `hyp_drag`
+📌 `hyp_drag`   |   Prior: 0.50   |   Belief: **0.33**
 
 > 在亚里士多德定律下，将重球 H（速度 8）与轻球 L（速度 4）绑在一起，L 对 H 产生拖拽，复合体 HL 的下落速度应小于 H 单独的速度 8。
 
@@ -281,7 +277,7 @@ graph TD
 
 #### Tied-Ball Mass Argument
 
-📌 `hyp_mass`
+📌 `hyp_mass`   |   Prior: 0.50   |   Belief: **0.33**
 
 > 在亚里士多德定律下，复合体 HL 的总重量大于 H 单独的重量，因此按该定律，HL 的下落速度应大于 H 单独的速度 8。
 
@@ -298,7 +294,7 @@ graph TD
 
 #### Vacuum Equal Speed ★
 
-📌 `hyp_vacuum_equal`
+📌 `hyp_vacuum_equal`   |   Prior: 0.50   |   Belief: **0.89**
 
 > 在完全没有阻力的介质（真空）中，不同重量的物体以相同速率下落。
 
@@ -315,7 +311,7 @@ graph TD
 
 #### final_contradiction
 
-📌 `final_contradiction`
+📌 `final_contradiction`   |   Belief: **1.00**
 
 > not_both_true(A, B)
 
@@ -324,7 +320,7 @@ graph TD
 
 #### Plane Prediction θ₁
 
-📌 `pred_theta1`
+📌 `pred_theta1`   |   Prior: 0.50   |   Belief: **0.99**
 
 > 等速假说预测：在近似无摩擦的斜面上（倾角 θ₁），不同重量的球应呈等加速，距离 ∝ 时间²，与重量无关。
 
@@ -341,7 +337,7 @@ graph TD
 
 #### Plane Prediction θ₂
 
-📌 `pred_theta2`
+📌 `pred_theta2`   |   Prior: 0.50   |   Belief: **0.99**
 
 > 等速假说预测：在另一倾角（θ₂）的斜面上，同样应呈等加速，距离 ∝ 时间²，与重量无关。
 
@@ -358,23 +354,9 @@ graph TD
 
 #### tied_ball_contradiction
 
-📌 `tied_ball_contradiction`
+📌 `tied_ball_contradiction`   |   Belief: **1.00**
 
 > not_both_true(A, B)
-
-
-#### 
-
-📌 ``
-
-> same_truth(A, B)
-
-
-#### 
-
-📌 ``
-
-> same_truth(A, B)
 
 
 ## Inference Results
@@ -383,20 +365,18 @@ graph TD
 
 | Label | Type | Prior | Belief | Role |
 |-------|------|-------|--------|------|
-| [hyp_aristotle_vac](#hyp_aristotle_vac) |  | 0.50 | 0.0004 | orphaned |
-| [hyp_aristotle](#hyp_aristotle) |  | 0.50 | 0.0005 | orphaned |
-| [hyp_drag](#hyp_drag) |  | 0.50 | 0.3340 | orphaned |
-| [hyp_mass](#hyp_mass) |  | 0.50 | 0.3340 | orphaned |
-| [hyp_vacuum_equal](#hyp_vacuum_equal) |  | 0.50 | 0.8946 | orphaned |
-| [hyp_air_resistance](#hyp_air_resistance) |  | 0.50 | 0.9531 | orphaned |
-| [obs_theta1](#obs_theta1) |  | 0.90 | 0.9892 | orphaned |
-| [obs_theta2](#obs_theta2) |  | 0.90 | 0.9892 | orphaned |
-| [pred_theta1](#pred_theta1) |  | 0.50 | 0.9892 | orphaned |
-| [pred_theta2](#pred_theta2) |  | 0.50 | 0.9892 | orphaned |
-| [tied_ball_contradiction](#tied_ball_contradiction) |  | — | 0.9995 | orphaned |
-| [obs_daily](#obs_daily) |  | 0.90 | 0.9996 | orphaned |
-| [None](#None) |  | — | 0.9998 | orphaned |
-| [None](#None) |  | — | 0.9998 | orphaned |
-| [obs_air](#obs_air) |  | 0.90 | 0.9999 | orphaned |
-| [obs_media](#obs_media) |  | 0.90 | 0.9999 | orphaned |
-| [final_contradiction](#final_contradiction) |  | — | 1.0000 | orphaned |
+| [hyp_aristotle_vac](#hyp_aristotle_vac) | claim | 0.50 | 0.0004 | derived |
+| [hyp_aristotle](#hyp_aristotle) | claim | 0.50 | 0.0005 | derived |
+| [hyp_drag](#hyp_drag) | claim | 0.50 | 0.3340 | derived |
+| [hyp_mass](#hyp_mass) | claim | 0.50 | 0.3340 | derived |
+| [hyp_vacuum_equal](#hyp_vacuum_equal) | claim | 0.50 | 0.8946 | derived |
+| [hyp_air_resistance](#hyp_air_resistance) | claim | 0.50 | 0.9531 | derived |
+| [obs_theta1](#obs_theta1) | claim | 0.90 | 0.9892 | independent |
+| [obs_theta2](#obs_theta2) | claim | 0.90 | 0.9892 | independent |
+| [pred_theta1](#pred_theta1) | claim | 0.50 | 0.9892 | derived |
+| [pred_theta2](#pred_theta2) | claim | 0.50 | 0.9892 | derived |
+| [tied_ball_contradiction](#tied_ball_contradiction) | claim | — | 0.9995 | structural |
+| [obs_daily](#obs_daily) | claim | 0.90 | 0.9996 | independent |
+| [obs_air](#obs_air) | claim | 0.90 | 0.9999 | independent |
+| [obs_media](#obs_media) | claim | 0.90 | 0.9999 | independent |
+| [final_contradiction](#final_contradiction) | claim | — | 1.0000 | structural |

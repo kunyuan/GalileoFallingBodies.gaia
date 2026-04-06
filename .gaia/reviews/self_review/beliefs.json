@@ -11,7 +11,7 @@
       "label": "__alternative_explanation_e703a823"
     },
     {
-      "belief": 0.23748509343776472,
+      "belief": 0.2374850934377647,
       "knowledge_id": "github:galileo_falling_bodies::__alternative_explanation_f82cae96",
       "label": "__alternative_explanation_f82cae96"
     },
@@ -140,7 +140,7 @@
         0.9980296028647212
       ],
       "github:galileo_falling_bodies::__alternative_explanation_f82cae96": [
-        0.23748509343776472
+        0.2374850934377647
       ],
       "github:galileo_falling_bodies::__disjunction_result_3e43ce79": [
         0.9999789659610558
